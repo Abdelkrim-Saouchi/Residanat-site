@@ -3,7 +3,7 @@ import Icon from "@mdi/react";
 
 const Header = () => {
   return (
-    <header className=" flex items-center justify-between border-b-2 border-neutral-300 bg-gray-900 px-20 text-neutral-200">
+    <header className=" flex items-center justify-between border-b border-neutral-300 bg-gray-900 px-20 py-2 text-neutral-200">
       <div className="flex items-center">
         <Icon
           className="mr-3 inline w-8 text-green-400"
