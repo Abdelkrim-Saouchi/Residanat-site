@@ -26,7 +26,7 @@ const Path = () => {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center gap-6 bg-gray-900 px-20 py-20 text-neutral-200">
+    <main className="flex min-h-screen flex-col items-center gap-6 bg-gray-900 px-20 py-10 text-neutral-200">
       <h2 className="text-2xl font-bold">Parcours</h2>
       <PathCard {...fundamentals} />
       <PathCard {...pharmaceutical} />
