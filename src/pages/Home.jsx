@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Home = () => {
   return (
     <main className="flex min-h-screen justify-center bg-gray-900 px-20 text-neutral-200">
@@ -15,12 +17,12 @@ const Home = () => {
           vous aider à réussir le concours de résidanat dans le domaine
           pharmaceutique.
         </p>
-        <a
+        <Link
           className="rounded border border-neutral-200 px-6 py-2 font-bold hover:bg-gray-600"
-          href="#"
+          to="/parcours"
         >
           Voir les cours
-        </a>
+        </Link>
       </div>
     </main>
   );
