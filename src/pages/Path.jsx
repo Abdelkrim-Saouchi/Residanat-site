@@ -13,14 +13,14 @@ const Path = () => {
 
   const pharmaceutical = {
     pathName: "Pharmaceutiques",
-    path: "path/pharmaceutical",
+    path: "pharmaceutical",
     svg: <PharmSvg />,
     desc: "Ces disciplines forment l'essence même du métier de pharmacien ! La pharmacologie, la pharmacognosie, la toxicologie, et bien d'autres, sont des matières fascinantes qui confèrent au pharmacien sa singularité et sa polyvalence.",
   };
 
   const biology = {
     pathName: "Biologiques",
-    path: "path/biology",
+    path: "biology",
     svg: <BioSvg />,
     desc: "Être pharmacien signifie prendre soin de l'humain, et prendre soin de l'humain implique une maîtrise de la biologie. Les sciences biologiques constituent l'un des piliers incontournables de la formation du pharmacien, qui en fait un professionnel de la santé indispensable.",
   };
