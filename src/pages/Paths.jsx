@@ -3,7 +3,7 @@ import ChemSvg from "../components/ChemSvg";
 import PathCard from "../components/PathCard";
 import PharmSvg from "../components/PharmSvg";
 
-const Path = () => {
+const Paths = () => {
   const fundamentals = {
     pathName: "Fondamentales",
     path: "fundamentals",
@@ -35,4 +35,4 @@ const Path = () => {
   );
 };
 
-export default Path;
+export default Paths;

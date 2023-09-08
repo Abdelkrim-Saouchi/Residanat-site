@@ -5,7 +5,7 @@ import Biology from "./pages/Biology";
 import Contact from "./pages/Contact";
 import Fundamentals from "./pages/Fundamentals";
 import Home from "./pages/Home";
-import Path from "./pages/Path";
+import Paths from "./pages/Paths";
 import Pharmaceutical from "./pages/Pharmaceutical";
 import Tech from "./pages/Tech";
 
@@ -18,8 +18,8 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "path",
-        element: <Path />,
+        path: "paths",
+        element: <Paths />,
       },
       {
         path: "tech",
@@ -30,15 +30,15 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: "path/fundamentals",
+        path: "paths/fundamentals",
         element: <Fundamentals />,
       },
       {
-        path: "path/pharmaceutical",
+        path: "paths/pharmaceutical",
         element: <Pharmaceutical />,
       },
       {
-        path: "path/biology",
+        path: "paths/biology",
         element: <Biology />,
       },
     ],

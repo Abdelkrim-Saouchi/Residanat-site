@@ -15,7 +15,7 @@ const Header = () => {
       <nav className="mx-8">
         <ul className="flex items-center justify-between gap-8">
           <li>
-            <Link to="/path" className="hover:text-green-400">
+            <Link to="/paths" className="hover:text-green-400">
               Parcours
             </Link>
           </li>

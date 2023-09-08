@@ -19,7 +19,7 @@ const Home = () => {
         </p>
         <Link
           className="rounded border border-neutral-200 px-6 py-2 font-bold hover:bg-gray-600"
-          to="/parcours"
+          to="/paths"
         >
           Voir les cours
         </Link>
