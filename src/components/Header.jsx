@@ -10,7 +10,7 @@ const Header = () => {
           className="mr-3 inline w-8 text-green-400"
           path={mdiAccountSchoolOutline}
         />
-        <h1 className="font-logo inline text-3xl font-bold">Discipulus</h1>
+        <h1 className="inline font-logo text-3xl font-bold">Discipulus</h1>
       </Link>
       <nav className="mx-8">
         <ul className="flex items-center justify-between gap-8">
@@ -30,7 +30,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link to="" className="hover:text-green-400">
+            <Link to="/contact" className="hover:text-green-400">
               Contact
             </Link>
           </li>
