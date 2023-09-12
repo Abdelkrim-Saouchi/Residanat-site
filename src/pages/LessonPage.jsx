@@ -1,4 +1,5 @@
 import ChemSvg from "../components/ChemSvg";
+import DownloadBar from "../components/DownloadBar";
 
 const LessonPage = () => {
   return (
@@ -11,12 +12,10 @@ const LessonPage = () => {
             <h3 className="font-bold opacity-60">Sciences Fondamentales</h3>
           </div>
         </div>
-        <div className="mt-20 flex items-center justify-between rounded-md border border-gray-700 bg-gray-800 px-4 py-2">
-          <p className="font-semibold">cours 2023</p>
-          <button className="rounded-md bg-emerald-800 px-2 py-1 font-semibold hover:bg-emerald-600">
-            Télécharger
-          </button>
-        </div>
+        <DownloadBar
+          label="Cours 2023"
+          path="2023/fondamentales/genetique/cours/07. La Régulation.ppt"
+        />
       </div>
     </main>
   );
