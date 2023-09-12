@@ -33,4 +33,32 @@ export const lessons = {
       },
     ],
   },
+  "F-02": {
+    links: [
+      {
+        label: "01-Equilibre Redox",
+        path: `${commonFPath}02.1 Equilibres Redox.pdf`,
+      },
+      {
+        label: "02-Dosages oxydo-reductimétriques",
+        path: `${commonFPath}02.2 DO,SAGES OXYDO-REDUCTIMETRIQUES.pdf`,
+      },
+    ],
+  },
+  "F-03": {
+    links: [
+      {
+        label: "01-Réactions de précipitations",
+        path: `${commonFPath}03. REACTIONS DE PRECIPITATIONS.pdf`,
+      },
+    ],
+  },
+  "F-04": {
+    links: [
+      {
+        label: "01-Réactions de complexation",
+        path: `${commonFPath}04. Réactions de compléxation.pdf`,
+      },
+    ],
+  },
 };
