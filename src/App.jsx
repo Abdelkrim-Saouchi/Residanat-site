@@ -7,7 +7,7 @@ import Fundamentals, {
   loader as fundamentalsLoader,
 } from "./pages/Fundamentals";
 import Home from "./pages/Home";
-import LessonPage from "./pages/LessonPage";
+import LessonPage, { loader as lessonLoader } from "./pages/LessonPage";
 import Paths, { loader as pathsLoader } from "./pages/Paths";
 import Pharmaceutical, {
   loader as pharmaceuticalLoader,
@@ -51,8 +51,9 @@ const router = createBrowserRouter([
         loader: biologyLoader,
       },
       {
-        path: "lessons/page",
+        path: "paths/:pathId/:lessonId",
         element: <LessonPage />,
+        loader: lessonLoader,
       },
     ],
   },

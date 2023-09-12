@@ -16,7 +16,7 @@ const DownloadBar = ({ label, path }) => {
   };
 
   return (
-    <div className="mt-20 flex items-center justify-between rounded-md border border-gray-700 bg-gray-800 px-4 py-2">
+    <div className="mt-6 flex items-center justify-between rounded-md border border-gray-700 bg-gray-800 px-4 py-2">
       <p className="font-semibold">{label}</p>
       <button
         onClick={downloadFile}
