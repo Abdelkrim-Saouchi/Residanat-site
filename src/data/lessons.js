@@ -308,4 +308,124 @@ export const lessons = {
       },
     ],
   },
+  "P-04": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonGalenicPath}04. Les-suppositoires.pdf`,
+      },
+    ],
+  },
+  "P-05": {
+    links: [
+      {
+        label: "01-Cours",
+        path: `${commonGalenicPath}05. biopharamcie.pdf`,
+      },
+    ],
+  },
+  "P-06": {
+    links: [
+      {
+        label: "01-Vectorisation 2023",
+        path: `${commonGalenicPath}06.1 Vectorisation - nouvelles formes pharmaceutiques.pdf`,
+      },
+      {
+        label: "02-Système à libération controlée 2023",
+        path: `${commonGalenicPath}06.2 Systemes à libération controlée - nouvelles formes pharmaceutique.pdf`,
+      },
+    ],
+  },
+  "P-07": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonGalenicPath}07. Etudes de stabilité des medicaments.pdf`,
+      },
+    ],
+  },
+  "P-08": {
+    links: [
+      {
+        label: "01-Conception d'une unité pharmaceutique 2022",
+        path: `${commonGalenicPath}08.1 BPF-Conception-dune-unité-pharmaceutique.pdf`,
+      },
+      {
+        label: "02-Conception d'une usine pharmaceutique 2022",
+        path: `${commonGalenicPath}08.2 BPF-Conception-dune-usine-pharmaceutique-ZAC-.pdf`,
+      },
+      {
+        label: "03-Matières premières 2020",
+        path: `${commonGalenicPath}08.3 BPF-Matiere Premiere.pptx`,
+      },
+      {
+        label: "04-Développement des médicaments 2020",
+        path: `${commonGalenicPath}08.4 BPF-développement des médicaments 2020_Khodja.pdf`,
+      },
+      {
+        label: "05-Transpositon d'échelle 2020",
+        path: `${commonGalenicPath}08.5 BPF-Transposition d'échelle 2020_Khodja-1.pdf`,
+      },
+      {
+        label: "06-AMM 2018",
+        path: `${commonGalenicPath}08.6 BPF-AMM 2018.pdf`,
+      },
+      {
+        label: "07-Assurance qualité 2020",
+        path: `${commonGalenicPath}08.7 BPF-L'assurance qualité 2020-1.pdf`,
+      },
+      {
+        label: "08-Qualification des équipements 2020",
+        path: `${commonGalenicPath}08.8 BPF-Qualification des équipements 2020 _ Khoja.pdf`,
+      },
+      {
+        label: "09-La validation part I 2020",
+        path: `${commonGalenicPath}08.9 BPF-la validation 2020_Part1.pdf`,
+      },
+      {
+        label: "09-La validation part II 2020",
+        path: `${commonGalenicPath}08.9 BPF-la validation 2020_Part2.pdf`,
+      },
+      {
+        label: "10-Développemnt et validation des méthodes analytiques 2020",
+        path: `${commonGalenicPath}08.10 BPF-Développement et validation des méthodes analytiques (2020).pdf`,
+      },
+      {
+        label: "11-Dissolution des formes orales solides 2020",
+        path: `${commonGalenicPath}08.11 BPF-Dissolution des formes orales solides 2020.pptx`,
+      },
+      {
+        label: "12-Controle des matières premières 2020",
+        path: `${commonGalenicPath}08.12 BPF-Contrôle des matières premières (2020).pdf`,
+      },
+      {
+        label: "13-Controle de produit fini 2020",
+        path: `${commonGalenicPath}08.14 BPF-control de produit fini Achour-Bouakkaz.pdf`,
+      },
+      {
+        label: "14-Notions de libération et de conformité des lots 2020",
+        path: `${commonGalenicPath}08.16 BPF-Notions de libération et conformité des lots (2020).pdf`,
+      },
+      {
+        label: "15-Traitement de l'air et la maitrise de la contamination 2020",
+        path: `${commonGalenicPath}08.17 BPF-Traitement de l’air et maitrise de la contamination (2020).pdf`,
+      },
+      {
+        label: "16-Bonnes pratiques de fabrication selon l'ANSM",
+        path: `${commonGalenicPath}08.18 BPF-ANSM.pdf`,
+      },
+    ],
+  },
+  "P-09": {
+    links: [
+      {
+        label: "01-Despersions + émulsions 2023",
+        path: `${commonGalenicPath}09.1 Les  dispersions+emulsions.pdf`,
+      },
+      {
+        label: "02-Suspensions 2023",
+        path: `${commonGalenicPath}09.1 Les  dispersions+emulsions.pdf`,
+      },
+    ],
+  },
 };
