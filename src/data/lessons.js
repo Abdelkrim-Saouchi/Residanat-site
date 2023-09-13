@@ -3,6 +3,8 @@ const commonBioPhysicPath = "2023/fondamentales/biophysiques/cours/";
 const commonGeneticPath = "2023/fondamentales/genetique/cours/";
 const commonGalenicPath = "2023/pharmaceutiques/galenique-industrielle/cours";
 const commmonPharmacoPath = "2023/pharmaceutiques/pharmacologie/cours";
+const commonToxicoPath = "2023/pharmaceutiques/toxicologie/cours";
+const commonGnosiePath = "2023/pharmaceutiques/pharmacognosie/cours";
 
 export const lessons = {
   "F-01": {
@@ -499,6 +501,10 @@ export const lessons = {
         label: "05-Traitement de l'insuffisance cardiaque 2023",
         path: `${commmonPharmacoPath}12.3 TRAITEMENT-DE-L’INSUFFISANCE-CARDIAQUE-pdf.pdf`,
       },
+      {
+        label: "06-Traitement de l'angor 2020",
+        path: "alternatives/pharmaceutiques/pharmacologie/cours/15-6-Trt de l'angor_2020_kerrada.pdf",
+      },
     ],
   },
   "P-16": {
@@ -526,6 +532,163 @@ export const lessons = {
       {
         label: "02-Traitement de troubles de transit 2023",
         path: `${commmonPharmacoPath}16.2 traitement-de-troubles-transit.pdf`,
+      },
+    ],
+  },
+  "P-18": {
+    links: [
+      {
+        label: "01-Cours 2020",
+        path: "alternatives/pharmaceutiques/pharmacologie/cours/19-Traitement de la maladie thromboemboiique veineuse_BERERHI_2020.pdf",
+      },
+    ],
+  },
+  "P-19": {
+    links: [
+      {
+        label: "01-Notions de toxicologie 2023",
+        path: `${commonToxicoPath}01.1 notion-de-toxicologie.ppt`,
+      },
+      {
+        label: "02-Mécanisme d'action toxique",
+        path: `${commonToxicoPath}01.2 Mécanisme-daction-toxique-chebli.pdf`,
+      },
+      {
+        label: "03-Lésions biochimiques",
+        path: `${commonToxicoPath}01.2 pharm5an_toxico-lesions_biochimiques.pptx`,
+      },
+      {
+        label: "04-Stress Oxydant 2023",
+        path: `${commonToxicoPath}01.3 Stress-oxydant.pdf`,
+      },
+      {
+        label: "05-Cytotoxicité 2023",
+        path: `${commonToxicoPath}01.4 cytotoxicité-Nécrose-ApoptoseDr.Boudemagh-K.pdf`,
+      },
+      {
+        label: "06-Cancero-muta-teratogène 2019",
+        path: `${commonToxicoPath}01.5 Cancero-muta-teratogenese_mecheri_2019.pdf`,
+      },
+    ],
+  },
+  "P-20": {
+    links: [
+      {
+        label: "!! Non désponible !!",
+        path: "",
+      },
+    ],
+  },
+  "P-21": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonToxicoPath}03. Traitement des intoxications.pdf`,
+      },
+    ],
+  },
+  "P-22": {
+    links: [
+      {
+        label: "01-Méthémoglobinisants 2023",
+        path: `${commonToxicoPath}04.1 MÉTHÉMOGLOBINISANTS.pdf`,
+      },
+      {
+        label: "02-Cyanure 2023",
+        path: `${commonToxicoPath}04.2 Cyanure.pdf`,
+      },
+      {
+        label: "03-Monoxyde de carbone 2023",
+        path: `${commonToxicoPath}04.3 MONOXYDE DE CARBONE.pdf`,
+      },
+    ],
+  },
+  "P-23": {
+    links: [
+      {
+        label: "01-Saturnisme 2023",
+        path: `${commonToxicoPath}05.1 Saturnisme.pdf`,
+      },
+      {
+        label: "02-Intoxication cadmiée 2023",
+        path: `${commonToxicoPath}05.2 Intoxication cadmiée.pdf`,
+      },
+    ],
+  },
+  "P-24": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonToxicoPath}06.2 Cours-OP-Carbamate-Dr-MECHERI.pdf`,
+      },
+    ],
+  },
+  "P-25": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonToxicoPath}07. Alcoolisme.pdf`,
+      },
+    ],
+  },
+  "P-26": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonToxicoPath}08. Antalgiques.pdf`,
+      },
+    ],
+  },
+  "P-27": {
+    links: [
+      {
+        label: "01-Méthanol + Ethylène glycol 2023",
+        path: `${commonToxicoPath}09.1 Méthanol-éthylène-glycol.pdf`,
+      },
+      {
+        label: "02-Ethers De Glycol 2023",
+        path: `${commonToxicoPath}09.2 Ethers De Glycol.pdf`,
+      },
+    ],
+  },
+  "P-28": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonToxicoPath}10. MYCOTOXINES.pdf`,
+      },
+    ],
+  },
+  "P-29": {
+    links: [
+      {
+        label: "01-Introduction à la pharmacognosie 2023",
+        path: `${commonGnosiePath}01. Introduction à la pharmacognosie.pdf`,
+      },
+    ],
+  },
+  "P-30": {
+    links: [
+      {
+        label: "01-Métabolisme Secondaire et Bioactives 2023",
+        path: `${commonGnosiePath}02. Metabolisme Secondaire Et Bioactivites.pdf`,
+      },
+    ],
+  },
+  "P-31": {
+    links: [
+      {
+        label: "01-Pratiques de la phytothérapie et le rique associé 2023",
+        path: `${commonGnosiePath}03. Pratiques de la phytothérapie et risques associés.pdf`,
+      },
+    ],
+  },
+  "P-32": {
+    links: [
+      {
+        label:
+          "01-Approvisionnemnt, Transformation et matières premières végétales 2023",
+        path: `${commonGnosiePath}04.1 Approvisionnement - Transformation et matières premières végétales.pdf`,
       },
     ],
   },
