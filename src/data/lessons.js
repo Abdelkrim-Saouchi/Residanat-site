@@ -2,6 +2,7 @@ const commonAnalyticPath = "2023/fondamentales/analytique/cours/";
 const commonBioPhysicPath = "2023/fondamentales/biophysiques/cours/";
 const commonGeneticPath = "2023/fondamentales/genetique/cours/";
 const commonGalenicPath = "2023/pharmaceutiques/galenique-industrielle/cours";
+const commmonPharmacoPath = "2023/pharmaceutiques/pharmacologie/cours";
 
 export const lessons = {
   "F-01": {
@@ -425,6 +426,106 @@ export const lessons = {
       {
         label: "02-Suspensions 2023",
         path: `${commonGalenicPath}09.1 Les  dispersions+emulsions.pdf`,
+      },
+    ],
+  },
+  "P-10": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonGalenicPath}01. METABOLISME DES MEDICAMENTS.pdf`,
+      },
+    ],
+  },
+  "P-11": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commmonPharmacoPath}02. Modélisation et paramétres pharmacocinétiques.pdf`,
+      },
+    ],
+  },
+  "P-12": {
+    links: [
+      {
+        label: "01-Les interactions pharmacocénitiques 2023",
+        path: `${commmonPharmacoPath}03. LES INTERACTIONS MÉDICAMENTEUSES d'ordre PHARMACOCINÉTIQUE.pdf`,
+      },
+      {
+        label: "02-Les interactions pharmacodynamiques 2023",
+        path: `${commmonPharmacoPath}04. Les interactions pharmacodynamiques.pdf`,
+      },
+    ],
+  },
+  "P-13": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commmonPharmacoPath}05. Pharmacovigilance.pdf`,
+      },
+    ],
+  },
+  "P-14": {
+    links: [
+      {
+        label: "01-Mdcts du SN Sympathique 2023",
+        path: `${commmonPharmacoPath}06. Médicaments du SN sympathique.pdf`,
+      },
+      {
+        label: "02-Mdcts du SN parasympathique 2023",
+        path: `${commmonPharmacoPath}07. Médicaments-du-parasympathique.pdf`,
+      },
+    ],
+  },
+  "P-15": {
+    links: [
+      {
+        label: "01-Les antiarythmiques 2023",
+        path: `${commmonPharmacoPath}08. Les-antiarythmiques.pdf`,
+      },
+      {
+        label: "02-Les anti-HTA 2023",
+        path: `${commmonPharmacoPath}12.1 ANTI-HTA-2023.pdf`,
+      },
+      {
+        label: "03-Les stratégies thérapeutiques HTA 2023",
+        path: `${commmonPharmacoPath}12.1 strategie-thérapeutique-HTA.pdf`,
+      },
+      {
+        label: "04-Les diurétiques 2023",
+        path: `${commmonPharmacoPath}12.2 Diurétiques.pdf`,
+      },
+      {
+        label: "05-Traitement de l'insuffisance cardiaque 2023",
+        path: `${commmonPharmacoPath}12.3 TRAITEMENT-DE-L’INSUFFISANCE-CARDIAQUE-pdf.pdf`,
+      },
+    ],
+  },
+  "P-16": {
+    links: [
+      {
+        label: "01-Intro aux Eicosanoides 2023",
+        path: `${commmonPharmacoPath}15. INTRODUCTION AUX EICOSANOIDES 2023.pdf`,
+      },
+      {
+        label: "02-Les AINS 2023",
+        path: `${commmonPharmacoPath}14. LES ANTI-INFLAMMATOIRES NON STÉROÏDIENS 2023.pdf,`,
+      },
+      {
+        label: "03-Les AIS 2023",
+        path: `${commmonPharmacoPath}13. Les antiinflammatoires stéroïdiens .pdf`,
+      },
+    ],
+  },
+  "P-17": {
+    links: [
+      {
+        label: "01-Traitement de l'ulcère et RGO 2023",
+        path: `${commmonPharmacoPath}16.1 traitement-de-lulcère-et-du-RGO.pdf`,
+      },
+      {
+        label: "02-Traitement de troubles de transit 2023",
+        path: `${commmonPharmacoPath}16.2 traitement-de-troubles-transit.pdf`,
       },
     ],
   },
