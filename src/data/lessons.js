@@ -292,4 +292,20 @@ export const lessons = {
       },
     ],
   },
+  "P-02": {
+    links: [
+      {
+        label: "01-Les préparations injectables 2023",
+        path: `${commonGalenicPath}02. Les préparations injectables.pdf`,
+      },
+    ],
+  },
+  "P-03": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonGalenicPath}03. Formes cutanées 2022-2023.pdf`,
+      },
+    ],
+  },
 };

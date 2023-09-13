@@ -1,17 +1,13 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import Layout from "./components/Layout";
-import Biology, { loader as biologyLoader } from "./pages/Biology";
+
 import Contact from "./pages/Contact";
-import Fundamentals, {
-  loader as fundamentalsLoader,
-} from "./pages/Fundamentals";
 import Home from "./pages/Home";
 import LessonPage, { loader as lessonLoader } from "./pages/LessonPage";
 import Paths, { loader as pathsLoader } from "./pages/Paths";
-import Pharmaceutical, {
-  loader as pharmaceuticalLoader,
-} from "./pages/Pharmaceutical";
+
+import PathPage, { loader as pathPageLoader } from "./pages/PathPage";
 import Tech from "./pages/Tech";
 
 const router = createBrowserRouter([
@@ -37,18 +33,8 @@ const router = createBrowserRouter([
       },
       {
         path: "paths/:pathId",
-        element: <Fundamentals />,
-        loader: fundamentalsLoader,
-      },
-      {
-        path: "paths/:pathId",
-        element: <Pharmaceutical />,
-        loader: pharmaceuticalLoader,
-      },
-      {
-        path: "paths/:pathId",
-        element: <Biology />,
-        loader: biologyLoader,
+        element: <PathPage />,
+        loader: pathPageLoader,
       },
       {
         path: "paths/:pathId/:lessonId",
