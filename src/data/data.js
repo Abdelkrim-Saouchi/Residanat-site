@@ -109,6 +109,7 @@ export const data = {
   pharmaceutical: {
     pathName: "Pharmaceutiques",
     path: "pharmaceutical",
+    title: "Sciences Pharmaceutiques",
     desc: "Ces disciplines forment l'essence même du métier de pharmacien ! La pharmacologie, la pharmacognosie, la toxicologie, et bien d'autres, sont des matières fascinantes qui confèrent au pharmacien sa singularité et sa polyvalence.",
     content: [
       {
@@ -116,7 +117,7 @@ export const data = {
         lessons: [
           {
             title:
-              "les formes pharmaceutiques destinées à la voie orale :sirops, comprimés et gélules",
+              "les formes pharmaceutiques destinées à la voie orale : sirops, comprimés et gélules",
             path: "P-01",
           },
           {
