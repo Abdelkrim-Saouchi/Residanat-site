@@ -1,10 +1,12 @@
 const commonAnalyticPath = "2023/fondamentales/analytique/cours/";
 const commonBioPhysicPath = "2023/fondamentales/biophysiques/cours/";
 const commonGeneticPath = "2023/fondamentales/genetique/cours/";
-const commonGalenicPath = "2023/pharmaceutiques/galenique-industrielle/cours";
-const commmonPharmacoPath = "2023/pharmaceutiques/pharmacologie/cours";
-const commonToxicoPath = "2023/pharmaceutiques/toxicologie/cours";
-const commonGnosiePath = "2023/pharmaceutiques/pharmacognosie/cours";
+const commonGalenicPath = "2023/pharmaceutiques/galenique-industrielle/cours/";
+const commmonPharmacoPath = "2023/pharmaceutiques/pharmacologie/cours/";
+const commonToxicoPath = "2023/pharmaceutiques/toxicologie/cours/";
+const commonGnosiePath = "2023/pharmaceutiques/pharmacognosie/cours/";
+const commonBioChemPath = "2023/biologiques/biochimie/cours/";
+const commonMicroPath = "2023/biologiques/microbiologie/cours/";
 
 export const lessons = {
   "F-01": {
@@ -689,6 +691,310 @@ export const lessons = {
         label:
           "01-Approvisionnemnt, Transformation et matières premières végétales 2023",
         path: `${commonGnosiePath}04.1 Approvisionnement - Transformation et matières premières végétales.pdf`,
+      },
+      {
+        label: "02-Formes galéniques de la phytothérapie 2023",
+        path: `${commonGnosiePath}04.2 Formes galéniques de phytothérapie.pdf`,
+      },
+    ],
+  },
+  "P-33": {
+    links: [
+      {
+        label: "01-Phénols et acides phénoliques + Coumarines 2023",
+        path: `${commonGnosiePath}05.1+2. PHENOLS ET ACIDES PHENOLS + COUMARINES.pdf`,
+      },
+      {
+        label: "02-Flavonoides 2023",
+        path: `${commonGnosiePath}05.3 LES FLAVONOÏDES.pdf`,
+      },
+      {
+        label: "03-Anthocyanes 2023",
+        path: `${commonGnosiePath}05.4 Anthocyanes.pdf`,
+      },
+      {
+        label: "04-Lignanes 2023",
+        path: `${commonGnosiePath}05.5 Lignanes.pdf`,
+      },
+      {
+        label: "05-Dérivés hydroxy-anthracéniques 2023",
+        path: `${commonGnosiePath}05.6 Dérivés hydroxy-anthracéniques.pdf`,
+      },
+    ],
+  },
+  "P-34": {
+    links: [
+      {
+        label: "01-Les Huiles Essentielles 2023",
+        path: `${commonGnosiePath}06.1 LES HUILES ESSENTIELLES.pdf`,
+      },
+      {
+        label: "02-LES HETEROSIDES CARDIOTONIQUES 2023",
+        path: `${commonGnosiePath}06.2 LES HETEROSIDES CARDIOTONIQUES.pdf`,
+      },
+      {
+        label: "03-Les Saponosides 2023",
+        path: `${commonGnosiePath}06.3 Les Saponosides.pdf`,
+      },
+    ],
+  },
+  "P-35": {
+    links: [
+      {
+        label: "01-Alcaloides part A 2023",
+        path: `${commonGnosiePath}07.1 ALCALOIDES_PART A.pdf`,
+      },
+      {
+        label: "02-Alcaloides part B 2023",
+        path: `${commonGnosiePath}07.2 ALCALOIDES_PART B.pdf`,
+      },
+    ],
+  },
+  "P-36": {
+    links: [
+      {
+        label: "01-Alcaloides part B 2023",
+        path: `${commonGnosiePath}07.2 ALCALOIDES_PART B.pdf`,
+      },
+    ],
+  },
+  "B-01": {
+    links: [
+      {
+        label: "01-Régulation de la glycémie 2023",
+        path: `${commonBioChemPath}01.1 Régulation de la glycémie.pdf`,
+      },
+      {
+        label: "02-Explorations de la glycorégulation 2023",
+        path: `${commonBioChemPath}01.2 Explorations de la glycorégulation.pdf`,
+      },
+      {
+        label: "03-Diabète sucré 2023",
+        path: `${commonBioChemPath}01.3 Diabète sucré.pdf`,
+      },
+      {
+        label: "04-Hypoglycémies 2023",
+        path: `${commonBioChemPath}01.4 Hypoglycémies.pdf`,
+      },
+    ],
+  },
+  "B-02": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonBioChemPath}02. Exploration du métabolisme des lipides.pdf`,
+      },
+    ],
+  },
+  "B-03": {
+    links: [
+      {
+        label: "01-Exploration des proteines (partie1) 2023",
+        path: `${commonBioChemPath}03.1 Exploration des proteines (partie1).pdf`,
+      },
+      {
+        label: "02-Exploration des proteines (partie2) 2023",
+        path: `${commonBioChemPath}03.2 Exploration des proteines (partie2).pdf`,
+      },
+    ],
+  },
+  "B-04": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonBioChemPath}04. Exploration fonctionnelle rénale.pdf`,
+      },
+    ],
+  },
+  "B-05": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonBioChemPath}05. Exploaration biochimique de la thyroide.pdf`,
+      },
+    ],
+  },
+  "B-06": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonBioChemPath}06. Exploration de l'équilibre hydrominérale.pdf`,
+      },
+    ],
+  },
+  "B-07": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonBioChemPath}07. Exploration du métabolisme phosphocalcique .pdf`,
+      },
+    ],
+  },
+  "B-08": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonBioChemPath}08. Exploration des enzymes sériques et tissulaires.pdf`,
+      },
+    ],
+  },
+  "B-09": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonBioChemPath}09. Exploration biochimique du foie.pdf`,
+      },
+    ],
+  },
+  "B-10": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonBioChemPath}10. La biochimie de l'hémolyse.pdf`,
+      },
+    ],
+  },
+  "B-11": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonBioChemPath}11. Les biomarqueurs cardiaques.pdf`,
+      },
+    ],
+  },
+  "B-12": {
+    links: [
+      {
+        label: "01-Structure-bacterienne 2023",
+        path: `${commonMicroPath}01.structure-bacterienne.doc`,
+      },
+    ],
+  },
+  "B-13": {
+    links: [
+      {
+        label: "01-Antiseptique désinfectant stérilisation 2023",
+        path: `${commonMicroPath}02. Antiseptique désinfectant stérilisation 2023.pdf`,
+      },
+    ],
+  },
+  "B-14": {
+    links: [
+      {
+        label: "01-Infection nosocomiale 2023",
+        path: `${commonMicroPath}03. Infection nosocomiale.pdf`,
+      },
+    ],
+  },
+  "B-15": {
+    links: [
+      {
+        label: "01-Dg d'une pneumopathie aigue 2019",
+        path: "alternatives/biologiques/cours/46. Dgc d'une pneumopathie aigue.docx",
+      },
+      {
+        label: "02-Les pneumopathies infectieuses 2018",
+        path: "alternatives/biologiques/cours/les peneumopathies infectieuses Dr. Bechir (2018).pdf",
+      },
+      {
+        label: "03-M.pneumoniae 2023",
+        path: `${commonMicroPath}Mycoplasmes.docx`,
+      },
+      {
+        label: "04-C.pneumoniae !! Non disponible !!",
+        path: "",
+      },
+      {
+        label: "05-Bordetella 2023",
+        path: `${commonMicroPath}04.1. Bordetella-Pasteurelle-Francisella.docx`,
+      },
+      {
+        label: "07-Legionella 2023",
+        path: `${commonMicroPath}04.2. Legionella.docx`,
+      },
+      {
+        label: "08-Pneumocoques 2023",
+        path: `${commonMicroPath}STREPTOCOQUE.docx`,
+      },
+      {
+        label: "09-HAEMOPHILUS 2023",
+        path: `${commonMicroPath}HAEMOPHILUS.docx`,
+      },
+      {
+        label: "10-Moraxella catarrhalis !! Non disponible !!",
+        path: "",
+      },
+      {
+        label: "11-Bacille-diphtérique(Corynebacteriaceae) 2023",
+        path: `${commonMicroPath}04.3. Bacille-diphtérique(Corynebacteriaceae).pdf`,
+      },
+      {
+        label: "12-Bacillus 2022",
+        path: "alternatives/biologiques/cours/25.Bacillaceae.pdf",
+      },
+      {
+        label: "12-2-Bacillus 2018",
+        path: "alternatives/biologiques/cours/bacillus Khalkhal (2018)-2.pdf",
+      },
+      {
+        label: "13-Staphylocoques 2023",
+        path: `${commonMicroPath}STAPHYLOCOQUES.docx`,
+      },
+      {
+        label: "14-Orthomyxovirus 2023",
+        path: `${commonMicroPath}15. Orthomyxoviridae.pdf`,
+      },
+      {
+        label: "15-Paramyxovirus 2023",
+        path: `${commonMicroPath}Paramyxoviridae-Pneumoviridae.pdf`,
+      },
+      {
+        label: "16-Adénovirus 2020",
+        path: "alternatives/biologiques/cours/42-Adenovirus (officiel).pdf",
+      },
+      {
+        label: "17-Coronavirus 2019",
+        path: "alternatives/biologiques/cours/44-les coronavirus Dr. S.KHEMISSI (2019).pdf",
+      },
+    ],
+  },
+  "B-16": {
+    links: [
+      {
+        label: "01-ATB part I 2023",
+        path: `${commonMicroPath}05.1. antibiotique1.docx`,
+      },
+      {
+        label: "02-ATB part II 2023",
+        path: `${commonMicroPath}05.2. antibiotique2.doc`,
+      },
+    ],
+  },
+  "B-17": {
+    links: [
+      {
+        label: "01-LCR 2023",
+        path: `${commonMicroPath}LCR.doc`,
+      },
+      {
+        label: "02-Méningocoques 2023",
+        path: `${commonMicroPath}Gonocoque ( Neisseriaceae ).docx`,
+      },
+      {
+        label: "08-Pneumocoques + strptocoques 2023",
+        path: `${commonMicroPath}STREPTOCOQUE.docx`,
+      },
+      {
+        label: "09-HAEMOPHILUS 2023",
+        path: `${commonMicroPath}HAEMOPHILUS.docx`,
+      },
+      {
+        label: "10-E.coli K1 2023",
+        path: `${commonMicroPath}Enterobacteries.pdf`,
+      },
+      {
+        label: "11-Lesteria 2023",
+        path: `${commonMicroPath}Listeria-monocytogenes-1.pdf`,
       },
     ],
   },
