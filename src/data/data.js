@@ -115,6 +115,15 @@ export const data = {
           },
         ],
       },
+      {
+        specialty: "Sujets Résidanat",
+        lessons: [
+          {
+            title: "Sujets",
+            path: "RQF",
+          },
+        ],
+      },
     ],
   },
 
@@ -312,6 +321,15 @@ export const data = {
           {
             title: "EMDS et QCM",
             path: "PQ-4",
+          },
+        ],
+      },
+      {
+        specialty: "Sujets Résidanat",
+        lessons: [
+          {
+            title: "Sujets",
+            path: "RQP",
           },
         ],
       },
@@ -543,6 +561,15 @@ export const data = {
           {
             title: "EMDS et QCM",
             path: "BQ-4",
+          },
+        ],
+      },
+      {
+        specialty: "Sujets Résidanat",
+        lessons: [
+          {
+            title: "Sujets",
+            path: "RQB",
           },
         ],
       },

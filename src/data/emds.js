@@ -9,6 +9,9 @@ const commonGalenicPath = "2023/pharmaceutiques/galenique-industrielle/emd/";
 const commmonPharmacoPath = "2023/pharmaceutiques/pharmacologie/emd/";
 const commonToxicoPath = "2023/pharmaceutiques/toxicologie/emd/";
 const commonGnosiePath = "2023/pharmaceutiques/pharmacognosie/emd/";
+const commonResidanatF = "2023/fondamentales/sujets-residanat/";
+const commonResidanatP = "2023/pharmaceutiques/sujets-residanat/";
+const commonResidanatB = "2023/biologiques/sujets-residanat/";
 
 export const emds = {
   "BQ-1": {
@@ -1077,6 +1080,152 @@ export const emds = {
       {
         label: "Cntrls Gnosie",
         path: `${commonGnosiePath}Cntrls Gnosie.pdf`,
+      },
+    ],
+  },
+
+  //Sujets résidant
+  RQF: {
+    links: [
+      {
+        label: "Ph_residanat-2011_25-sc_fondamentales",
+        path: `${commonResidanatF}Ph_residanat-2011_25-sc_fondamentales.pdf`,
+      },
+      {
+        label: "Ph_residanat-2012_25-sc_fondamentales",
+        path: `${commonResidanatF}Ph_residanat-2012_25-sc_fondamentales.pdf`,
+      },
+      {
+        label: "Ph_residanat-2013_25-sc_fondamentale",
+        path: `${commonResidanatF}Ph_residanat-2013_25-sc_fondamentales.pdf`,
+      },
+      {
+        label: "Ph_residanat-2014_25-sc_fondamentales",
+        path: `${commonResidanatF}Ph_residanat-2014_25-sc_fondamentales.pdf`,
+      },
+      {
+        label: "Ph_residanat-2015_25-sc_fondamentales",
+        path: `${commonResidanatF}Ph_residanat-2015_25-sc_fondamentales.pdf`,
+      },
+      {
+        label: "Ph_residanat-2016_25-sc_fondamentales",
+        path: `${commonResidanatF}Ph_residanat-2016_25-sc_fondamentales.pdf`,
+      },
+      {
+        label: "Ph_residanat-2017_25-sc_fondamentales",
+        path: `${commonResidanatF}Ph_residanat-2017_25-sc_fondamentales.pdf`,
+      },
+      {
+        label: "Ph_residanat-2018_25-sc_fondamentales",
+        path: `${commonResidanatF}Ph_residanat-2018_25-sc_fondamentales.pdf`,
+      },
+      {
+        label: "Ph_residanat-2019_25-sc_fondamentales",
+        path: `${commonResidanatF}Ph_residanat-2019_25-sc_fondamentales.pdf`,
+      },
+      {
+        label: "Ph_residanat-2021_25-sc_fondamentales",
+        path: `${commonResidanatF}Ph_residanat-2021_25-sc_fondamentales.pdf`,
+      },
+      {
+        label: "Ph_residanat-2022_25-sc_fondamentales",
+        path: `${commonResidanatF}Ph_residanat-2022_25-sc_fondamentales.pdf`,
+      },
+    ],
+  },
+  RQP: {
+    links: [
+      {
+        label: "Ph_residanat-2011_25-sc_pharmaceutiques",
+        path: `${commonResidanatP}Ph_residanat-2011_25-sc_pharmaceutiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2012_25-sc_pharmaceutiques",
+        path: `${commonResidanatP}Ph_residanat-2012_25-sc_pharmaceutiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2013_25-sc_pharmaceutiques",
+        path: `${commonResidanatP}Ph_residanat-2013_25-sc_pharmaceutiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2014_25-sc_pharmaceutiques",
+        path: `${commonResidanatP}Ph_residanat-2014_25-sc_pharmaceutiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2015_25-sc_pharmaceutiques",
+        path: `${commonResidanatP}Ph_residanat-2015_25-sc_pharmaceutiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2016_25-sc_pharmaceutiques",
+        path: `${commonResidanatP}Ph_residanat-2016_25-sc_pharmaceutiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2017_25-sc_pharmaceutiques",
+        path: `${commonResidanatP}Ph_residanat-2017_25-sc_pharmaceutiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2018_25-sc_pharmaceutiques",
+        path: `${commonResidanatP}Ph_residanat-2018_25-sc_pharmaceutiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2019_25-sc_pharmaceutiques",
+        path: `${commonResidanatP}Ph_residanat-2019_25-sc_pharmaceutiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2021_25-sc_pharmaceutiques",
+        path: `${commonResidanatP}Ph_residanat-2021_25-sc_pharmaceutiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2022_25-sc_pharmaceutiques",
+        path: `${commonResidanatP}Ph_residanat-2022_25-sc_pharmaceutiques.pdf`,
+      },
+    ],
+  },
+  RQB: {
+    links: [
+      {
+        label: "Ph_residanat-2011_25-sc_biologiques",
+        path: `${commonResidanatB}Ph_residanat-2011_25-sc_biologiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2012_25-sc_biologiques",
+        path: `${commonResidanatB}Ph_residanat-2012_25-sc_biologiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2013_25-sc_biologiques",
+        path: `${commonResidanatB}Ph_residanat-2013_25-sc_biologiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2014_25-sc_biologiques",
+        path: `${commonResidanatB}Ph_residanat-2014_25-sc_biologiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2015_25-sc_biologiques",
+        path: `${commonResidanatB}Ph_residanat-2015_25-sc_biologiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2016_25-sc_biologiques",
+        path: `${commonResidanatB}Ph_residanat-2016_25-sc_biologiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2017_25-sc_biologiques",
+        path: `${commonResidanatB}Ph_residanat-2017_25-sc_biologiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2018_25-sc_biologiques",
+        path: `${commonResidanatB}Ph_residanat-2018_25-sc_biologiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2019_25-sc_biologiques",
+        path: `${commonResidanatB}Ph_residanat-2019_25-sc_biologiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2021_25-sc_biologiques",
+        path: `${commonResidanatB}Ph_residanat-2021_25-sc_biologiques.pdf`,
+      },
+      {
+        label: "Ph_residanat-2022_25-sc_biologiques",
+        path: `${commonResidanatB}Ph_residanat-2022_25-sc_biologiques.pdf`,
       },
     ],
   },
