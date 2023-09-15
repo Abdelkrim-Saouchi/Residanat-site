@@ -164,6 +164,10 @@ export const data = {
             title: "les dispersions",
             path: "P-09",
           },
+          {
+            title: "EMDS et QCM",
+            path: "PQ-1",
+          },
         ],
       },
       {
@@ -204,6 +208,10 @@ export const data = {
           {
             title: "Médicaments de l'hémostase",
             path: "P-18",
+          },
+          {
+            title: "EMDS et QCM",
+            path: "PQ-2",
           },
         ],
       },
@@ -254,6 +262,10 @@ export const data = {
             title: "Contaminants alimentaires : mycotoxines",
             path: "P-28",
           },
+          {
+            title: "EMDS et QCM",
+            path: "PQ-3",
+          },
         ],
       },
       {
@@ -296,6 +308,10 @@ export const data = {
             title:
               "Anticancéreux et antipaludiques d'origine naturelle (uniquement ceux obtenus à partir des végétaux supérieurs",
             path: "P-36",
+          },
+          {
+            title: "EMDS et QCM",
+            path: "PQ-4",
           },
         ],
       },

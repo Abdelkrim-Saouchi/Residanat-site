@@ -1,10 +1,14 @@
 const commonBioChemPath = "2023/biologiques/biochimie/emd/";
 const commonMicroPath = "2023/biologiques/microbiologie/emd/";
 const commonParasitoPath = "2023/biologiques/parasitologie/emd/";
-const commonHemoBioPath = "2023/biologiques/hemobiologie/emd";
-const commonAnalyticPath = "2023/fondamentales/analytique/emd";
-const commonBioPhysicPath = "2023/fondamentales/biophysiques/emd";
-const commonGeneticPath = "2023/fondamentales/genetique/emd";
+const commonHemoBioPath = "2023/biologiques/hemobiologie/emd/";
+const commonAnalyticPath = "2023/fondamentales/analytique/emd/";
+const commonBioPhysicPath = "2023/fondamentales/biophysiques/emd/";
+const commonGeneticPath = "2023/fondamentales/genetique/emd/";
+const commonGalenicPath = "2023/pharmaceutiques/galenique-industrielle/emd/";
+const commmonPharmacoPath = "2023/pharmaceutiques/pharmacologie/emd/";
+const commonToxicoPath = "2023/pharmaceutiques/toxicologie/emd/";
+const commonGnosiePath = "2023/pharmaceutiques/pharmacognosie/emd/";
 
 export const emds = {
   "BQ-1": {
@@ -661,6 +665,418 @@ export const emds = {
       {
         label: "EMD 2 Génétique (2023)",
         path: `${commonGeneticPath}EMD 2 Génétique (2023).pdf`,
+      },
+    ],
+  },
+  "PQ-1": {
+    links: [
+      {
+        label: "Emd1 Galénique (2014)",
+        path: `${commonGalenicPath}Emd1 Galénique (2014).pdf`,
+      },
+      {
+        label: "Emd1 Galénique (2015)",
+        path: `${commonGalenicPath}Emd1 Galénique (2015).pdf`,
+      },
+      {
+        label: "Emd1 Galénique (2016)",
+        path: `${commonGalenicPath}Emd1 Galénique (2016).pdf`,
+      },
+      {
+        label: "Emd1 Galénique (2017)",
+        path: `${commonGalenicPath}Emd1 Galénique (2017).pdf`,
+      },
+      {
+        label: "Emd1 Galénique (2018)",
+        path: `${commonGalenicPath}Emd1 Galénique (2018).pdf`,
+      },
+      {
+        label: "Emd1 Galénique (2019)",
+        path: `${commonGalenicPath}Emd1 Galénique (2019).pdf`,
+      },
+      {
+        label: "Emd1 Galénique (2020)",
+        path: `${commonGalenicPath}Emd1 Galénique (2020).pdf`,
+      },
+      {
+        label: "Emd1 Galénique (2021)",
+        path: `${commonGalenicPath}Emd1 Galénique (2021).pdf`,
+      },
+      {
+        label: "Emd1 Galénique (2022)",
+        path: `${commonGalenicPath}Emd1 Galénique (2022).pdf`,
+      },
+      {
+        label: "Emd1 Galénique (2023)",
+        path: `${commonGalenicPath}Emd1 Galénique (2023).pdf`,
+      },
+      {
+        label: "Emd2 Galénique (2014)",
+        path: `${commonGalenicPath}Emd2 Galénique (2014).pdf`,
+      },
+      {
+        label: "Emd2 Galénique (2015)",
+        path: `${commonGalenicPath}Emd2 Galénique (2015).pdf`,
+      },
+      {
+        label: "Emd2 Galénique (2016)",
+        path: `${commonGalenicPath}Emd2 Galénique (2016).pdf`,
+      },
+      {
+        label: "Emd2 Galénique (2018)",
+        path: `${commonGalenicPath}Emd2 Galénique (2018).pdf`,
+      },
+      {
+        label: "Emd2 Galénique (2019)",
+        path: `${commonGalenicPath}Emd2 Galénique (2019).pdf`,
+      },
+      {
+        label: "Emd2 Galénique (2019 CT)",
+        path: `${commonGalenicPath}Emd2 Galénique (2019 CT).jpg`,
+      },
+      {
+        label: "Emd2 Galénique (2020)",
+        path: `${commonGalenicPath}Emd2 Galénique (2020).pdf`,
+      },
+      {
+        label: "Emd2 Galénique (2021)",
+        path: `${commonGalenicPath}Emd2 Galénique (2021).pdf`,
+      },
+      {
+        label: "Emd2 Galénique (2022)",
+        path: `${commonGalenicPath}Emd2 Galénique (2022).pdf`,
+      },
+      {
+        label: "Emd2 Galénique (2023)",
+        path: `${commonGalenicPath}Emd2 Galénique (2023).pdf`,
+      },
+      {
+        label: "Emd3 Galénique (2015)",
+        path: `${commonGalenicPath}Emd3 Galénique (2015).pdf`,
+      },
+      {
+        label: "Emd3 Galénique (2016)",
+        path: `${commonGalenicPath}Emd3 Galénique (2016).pdf`,
+      },
+      {
+        label: "Emd3 Galénique (2018)",
+        path: `${commonGalenicPath}Emd3 Galénique (2018).pdf`,
+      },
+      {
+        label: "Emd3 Galénique (2019)",
+        path: `${commonGalenicPath}Emd3 Galénique (2019).pdf`,
+      },
+      {
+        label: "Emd3 Galénique (2019 CT)",
+        path: `${commonGalenicPath}Emd3 Galénique (2019 CT).jpg`,
+      },
+      {
+        label: "Emd3 Galénique (2021)",
+        path: `${commonGalenicPath}Emd3 Galénique (2021).pdf`,
+      },
+      {
+        label: "Emd3 Galénique (2022)",
+        path: `${commonGalenicPath}Emd3 Galénique (2022).pdf`,
+      },
+      {
+        label: "Emd3 Galénique (2023)",
+        path: `${commonGalenicPath}Emd3 Galénique (2023).pdf`,
+      },
+      {
+        label: "Cntrls Pharmacie Galénique",
+        path: `${commonGalenicPath}Cntrls Pharmacie Galénique.pdf`,
+      },
+    ],
+  },
+  "PQ-2": {
+    links: [
+      {
+        label: "Emd1 Ph.clinique (2016)",
+        path: `${commmonPharmacoPath}Emd1 Ph.clinique (2016).pdf`,
+      },
+      {
+        label: "Emd1 Ph.clinique (2017)",
+        path: `${commmonPharmacoPath}Emd1 Ph.clinique (2017).pdf`,
+      },
+      {
+        label: "Emd1 Ph.clinique (2018)",
+        path: `${commmonPharmacoPath}Emd1 Ph.clinique (2018).pdf`,
+      },
+      {
+        label: "Emd1 Ph.clinique (2019)",
+        path: `${commmonPharmacoPath}Emd1 Ph.clinique (2019).pdf`,
+      },
+      {
+        label: "Emd1 Ph.clinique (2020)",
+        path: `${commmonPharmacoPath}Emd1 Ph.clinique (2020).pdf`,
+      },
+      {
+        label: "Emd1 Ph.clinique (2023)",
+        path: `${commmonPharmacoPath}Emd1 Ph.clinique (2023).pdf`,
+      },
+      {
+        label: "Emd1 Pharmacologie (2015)",
+        path: `${commmonPharmacoPath}Emd1 Pharmacologie (2015).pdf`,
+      },
+      {
+        label: "Emd1 Pharmacologie (2016)",
+        path: `${commmonPharmacoPath}Emd1 Pharmacologie (2016).pdf`,
+      },
+      {
+        label: "Emd1 Pharmacologie (2017)",
+        path: `${commmonPharmacoPath}Emd1 Pharmacologie (2017).pdf`,
+      },
+      {
+        label: "Emd1 Pharmacologie (2018)",
+        path: `${commmonPharmacoPath}Emd1 Pharmacologie (2018).pdf`,
+      },
+      {
+        label: "Emd1 Pharmacologie (2019)",
+        path: `${commmonPharmacoPath}Emd1 Pharmacologie (2019).pdf`,
+      },
+      {
+        label: "Emd1 Pharmacologie (2020)",
+        path: `${commmonPharmacoPath}Emd1 Pharmacologie (2020).pdf`,
+      },
+      {
+        label: "Emd1 Pharmacologie (2021)",
+        path: `${commmonPharmacoPath}Emd1 Pharmacologie (2021).pdf`,
+      },
+      {
+        label: "Emd1 Pharmacologie (2023)",
+        path: `${commmonPharmacoPath}Emd1 Pharmacologie (2023).pdf`,
+      },
+      {
+        label: "Emd2 Ph.clinique (2020)",
+        path: `${commmonPharmacoPath}Emd2 Ph.clinique (2020).pdf`,
+      },
+      {
+        label: "Emd2 Ph.clinique (2021)",
+        path: `${commmonPharmacoPath}Emd2 Ph.clinique (2021).pdf`,
+      },
+      {
+        label: "Emd2 Ph.clinique (2022)",
+        path: `${commmonPharmacoPath}Emd2 Ph.clinique (2022).pdf`,
+      },
+      {
+        label: "Emd2 Ph.clinique (2023)",
+        path: `${commmonPharmacoPath}Emd2 Ph.clinique (2023).pdf`,
+      },
+      {
+        label: "Emd2 Pharmacologie (2014)",
+        path: `${commmonPharmacoPath}Emd2 Pharmacologie (2014).pdf`,
+      },
+      {
+        label: "Emd2 Pharmacologie (2015)",
+        path: `${commmonPharmacoPath}Emd2 Pharmacologie (2015).pdf`,
+      },
+      {
+        label: "Emd2 Pharmacologie (2016)",
+        path: `${commmonPharmacoPath}Emd2 Pharmacologie (2016).pdf`,
+      },
+      {
+        label: "Emd2 Pharmacologie (2017)",
+        path: `${commmonPharmacoPath}Emd2 Pharmacologie (2017).pdf`,
+      },
+      {
+        label: "Emd2 Pharmacologie (2018)",
+        path: `${commmonPharmacoPath}Emd2 Pharmacologie (2018).pdf`,
+      },
+      {
+        label: "Emd2 Pharmacologie (2019)",
+        path: `${commmonPharmacoPath}Emd2 Pharmacologie (2019).pdf`,
+      },
+      {
+        label: "Emd2 Pharmacologie (2020)",
+        path: `${commmonPharmacoPath}Emd2 Pharmacologie (2020).pdf`,
+      },
+      {
+        label: "Emd2 Pharmacologie (2021)",
+        path: `${commmonPharmacoPath}Emd2 Pharmacologie (2021).pdf`,
+      },
+      {
+        label: "Emd2 Pharmacologie (2022)",
+        path: `${commmonPharmacoPath}Emd2 Pharmacologie (2022).pdf`,
+      },
+      {
+        label: "Emd2 Pharmacologie (2023)",
+        path: `${commmonPharmacoPath}Emd2 Pharmacologie (2023).pdf`,
+      },
+      {
+        label: "Emd3 Pharmacologie (2015)",
+        path: `${commmonPharmacoPath}Emd3 Pharmacologie (2015).pdf`,
+      },
+      {
+        label: "Emd3 Pharmacologie (2016)",
+        path: `${commmonPharmacoPath}Emd3 Pharmacologie (2016).pdf`,
+      },
+      {
+        label: "Emd3 Pharmacologie (2018)",
+        path: `${commmonPharmacoPath}Emd3 Pharmacologie (2018).pdf`,
+      },
+      {
+        label: "Emd3 Pharmacologie (2019)",
+        path: `${commmonPharmacoPath}Emd3 Pharmacologie (2019).pdf`,
+      },
+      {
+        label: "Emd3 Pharmacologie (2021)",
+        path: `${commmonPharmacoPath}Emd3 Pharmacologie (2021).pdf`,
+      },
+      {
+        label: "Emd3 Pharmacologie (2022)",
+        path: `${commmonPharmacoPath}Emd3 Pharmacologie (2022).pdf`,
+      },
+      {
+        label: "Emd3 Pharmacologie (2023)",
+        path: `${commmonPharmacoPath}Emd3 Pharmacologie (2023).pdf`,
+      },
+      {
+        label: "Cntrls Pharmacologie",
+        path: `${commmonPharmacoPath}Cntrls Pharmacologie.pdf`,
+      },
+    ],
+  },
+  "PQ-3": {
+    links: [
+      {
+        label: "Contrôles Toxico T1(15-16-17-18)",
+        path: `${commonToxicoPath}Contrôles Toxico T1(15-16-17-18).pdf`,
+      },
+      {
+        label: "Emd1 Toxicologie (2017)",
+        path: `${commonToxicoPath}Emd1 Toxicologie (2017).pdf`,
+      },
+      {
+        label: "Emd1 Toxicologie (2018)",
+        path: `${commonToxicoPath}Emd1 Toxicologie (2018).pdf`,
+      },
+      {
+        label: "Emd1 Toxicologie (2019)",
+        path: `${commonToxicoPath}Emd1 Toxicologie (2019).pdf`,
+      },
+      {
+        label: "Emd1 Toxicologie (2020)",
+        path: `${commonToxicoPath}Emd1 Toxicologie (2020).pdf`,
+      },
+      {
+        label: "Emd1 Toxicologie (2021)",
+        path: `${commonToxicoPath}Emd1 Toxicologie (2021).pdf`,
+      },
+      {
+        label: "Emd1 Toxicologie (2022)",
+        path: `${commonToxicoPath}Emd1 Toxicologie (2022).pdf`,
+      },
+      {
+        label: "Emd2 Toxicologie (2018)",
+        path: `${commonToxicoPath}Emd2 Toxicologie (2018).pdf`,
+      },
+      {
+        label: "Emd2 Toxicologie (2019)",
+        path: `${commonToxicoPath}Emd2 Toxicologie (2019).pdf`,
+      },
+      {
+        label: "Emd2 Toxicologie (2020)",
+        path: `${commonToxicoPath}Emd2 Toxicologie (2020).pdf`,
+      },
+      {
+        label: "Emd2 Toxicologie (2021)",
+        path: `${commonToxicoPath}Emd2 Toxicologie (2021).pdf`,
+      },
+      {
+        label: "Emd2 Toxicologie (2022)",
+        path: `${commonToxicoPath}Emd2 Toxicologie (2022).pdf`,
+      },
+      {
+        label: "Emd3 Toxicologie (2016)",
+        path: `${commonToxicoPath}Emd3 Toxicologie (2016).pdf`,
+      },
+      {
+        label: "Emd3 Toxicologie (2018)",
+        path: `${commonToxicoPath}Emd3 Toxicologie (2018).pdf`,
+      },
+      {
+        label: "Emd3 Toxicologie (2019)",
+        path: `${commonToxicoPath}Emd3 Toxicologie (2019).pdf`,
+      },
+      {
+        label: "Emd3 Toxicologie (2021)",
+        path: `${commonToxicoPath}Emd3 Toxicologie (2021).pdf`,
+      },
+      {
+        label: "Qcm Toxico",
+        path: `${commonToxicoPath}Qcm Toxico.docx`,
+      },
+      {
+        label: "qcm toxicologie",
+        path: `${commonToxicoPath}qcm toxicologie.pdf`,
+      },
+      {
+        label: "Qcm toxicologie internat",
+        path: `${commonToxicoPath}Qcm toxicology internat.docx`,
+      },
+    ],
+  },
+  "PQ-4": {
+    links: [
+      {
+        label: "Emd1 Gnosie (2014)",
+        path: `${commonGnosiePath}Emd1 Gnosie (2014).pdf`,
+      },
+      {
+        label: "Emd1 Gnosie (2016)",
+        path: `${commonGnosiePath}Emd1 Gnosie (2016).pdf`,
+      },
+      {
+        label: "Emd1 Gnosie (2016) 2",
+        path: `${commonGnosiePath}Emd1 Gnosie (2016)2.pdf`,
+      },
+      {
+        label: "Emd1 Gnosie (2019)",
+        path: `${commonGnosiePath}Emd1 Gnosie (2019).pdf`,
+      },
+      {
+        label: "Emd1 Gnosie (2020)",
+        path: `${commonGnosiePath}Emd1 Gnosie (2020).pdf`,
+      },
+      {
+        label: "Emd1 Gnosie (2021)",
+        path: `${commonGnosiePath}Emd1 Gnosie (2021).pdf`,
+      },
+      {
+        label: "Emd1 Gnosie (2023)",
+        path: `${commonGnosiePath}Emd1 Gnosie (2023).pdf`,
+      },
+      {
+        label: "Emd2 Gnosie (2013)",
+        path: `${commonGnosiePath}Emd2 Gnosie (2013).pdf`,
+      },
+      {
+        label: "Emd2 Gnosie (2014)",
+        path: `${commonGnosiePath}Emd2 Gnosie (2014).pdf`,
+      },
+      {
+        label: "Emd2 Gnosie (2019)",
+        path: `${commonGnosiePath}Emd2 Gnosie (2019).pdf`,
+      },
+      {
+        label: "Emd2 Gnosie (2019) CT",
+        path: `${commonGnosiePath}Emd2 Gnosie (2019) CT.jpg`,
+      },
+      {
+        label: "Emd2 Gnosie (2020)",
+        path: `${commonGnosiePath}Emd2 Gnosie (2020).pdf`,
+      },
+      {
+        label: "Emd2 Gnosie (2022)",
+        path: `${commonGnosiePath}Emd2 Gnosie (2022).pdf`,
+      },
+      {
+        label: "Emd2 Gnosie (2023)",
+        path: `${commonGnosiePath}Emd2 Gnosie (2023).pdf`,
+      },
+      {
+        label: "Cntrls Gnosie",
+        path: `${commonGnosiePath}Cntrls Gnosie.pdf`,
       },
     ],
   },
