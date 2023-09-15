@@ -2,7 +2,9 @@ const commonBioChemPath = "2023/biologiques/biochimie/emd/";
 const commonMicroPath = "2023/biologiques/microbiologie/emd/";
 const commonParasitoPath = "2023/biologiques/parasitologie/emd/";
 const commonHemoBioPath = "2023/biologiques/hemobiologie/emd";
-const commonAnalyticPath = "2023/fondamentals/analytique/emd";
+const commonAnalyticPath = "2023/fondamentales/analytique/emd";
+const commonBioPhysicPath = "2023/fondamentales/biophysiques/emd";
+const commonGeneticPath = "2023/fondamentales/genetique/emd";
 
 export const emds = {
   "BQ-1": {
@@ -448,88 +450,217 @@ export const emds = {
   "FQ-1": {
     links: [
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "Chimie_analytique_TD n°01_ELL",
+        paht: "2023/fondamentales/analytique/td/Chimie_analytique_TD n°01_ELL .pdf",
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "Chimie_analytique_TD_n°02_chromatographie",
+        paht: "2023/fondamentales/analytique/td/Chimie_analytique_TD_n°02_chromatographie.pdf",
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "TD1 (2ème)",
+        paht: "2023/fondamentales/analytique/td/TD1 (2ème).pdf",
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "TD2 (2ème)",
+        paht: "2023/fondamentales/analytique/td/TD2 (2ème).pdf",
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "TD3 (2ème)",
+        paht: "2023/fondamentales/analytique/td/TD3 (2ème).pdf",
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "TD4 (2ème)",
+        paht: "2023/fondamentales/analytique/td/TD4 (2ème).pdf",
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "TD5 (2ème)",
+        paht: "2023/fondamentales/analytique/td/TD5 (2ème).pdf",
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "TD6 (2ème)",
+        paht: "2023/fondamentales/analytique/td/TD6 (2ème).pdf",
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "TD7 (2ème)",
+        paht: "2023/fondamentales/analytique/td/TD7 (2ème).pdf",
+      },
+
+      {
+        label: "Emd1 Ch.Analytique (2015) 3ème",
+        path: `${commonAnalyticPath}Emd1 Ch.Analytique (2015) 3ème.pdf`,
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "Emd1 Ch.Analytique (2016) 3ème",
+        path: `${commonAnalyticPath}Emd1 Ch.Analytique (2016) 3ème.pdf`,
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "Emd1 Ch.Analytique (2019) 3ème",
+        path: `${commonAnalyticPath}Emd1 Ch.Analytique (2019) 3ème.pdf`,
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "Emd1 Ch.Analytique (2020) 3ème",
+        path: `${commonAnalyticPath}Emd1 Ch.Analytique (2020) 3ème.pdf`,
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "Emd1 Ch.Analytique (2021) 3ème",
+        path: `${commonAnalyticPath}Emd1 Ch.Analytique (2021) 3ème.pdf`,
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "Emd1 Ch.Analytique (2022) 3ème",
+        path: `${commonAnalyticPath}Emd1 Ch.Analytique (2022) 3ème.pdf`,
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "Emd2 Ch.Analytique (2014) 3ème",
+        path: `${commonAnalyticPath}Emd2 Ch.Analytique (2014) 3ème.pdf`,
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "Emd2 Ch.Analytique (2015) 3ème",
+        path: `${commonAnalyticPath}Emd2 Ch.Analytique (2015) 3ème.pdf`,
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "Emd2 Ch.Analytique (2016) 3ème",
+        path: `${commonAnalyticPath}Emd2 Ch.Analytique (2016) 3ème.pdf`,
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "Emd2 Ch.Analytique (2018) 3ème",
+        path: `${commonAnalyticPath}Emd2 Ch.Analytique (2018) 3ème.pdf`,
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "Emd2 Ch.Analytique (2019) 3ème",
+        path: `${commonAnalyticPath}Emd2 Ch.Analytique (2019) 3ème.pdf`,
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "Emd2 Ch.Analytique (2020) 3ème",
+        path: `${commonAnalyticPath}Emd2 Ch.Analytique (2020) 3ème.pdf`,
       },
       {
-        label: "",
-        path: `${commonAnalyticPath}`,
+        label: "Emd2 Ch.Analytique (2022) 3ème",
+        path: `${commonAnalyticPath}Emd2 Ch.Analytique (2022) 3ème.pdf`,
+      },
+      {
+        label: "Emd2 Ch.Analytique (2023) 3ème",
+        path: `${commonAnalyticPath}Emd2 Ch.Analytique (2023) 3ème.pdf`,
+      },
+      {
+        label: "EMD 1 Ch.Analytique (2020) 2éme année",
+        path: `${commonAnalyticPath}EMD 1 Ch.Analytique (2020) 2éme année.pdf`,
+      },
+      {
+        label: "EMD 2 Ch.Analytique (2020) 2éme année",
+        path: `${commonAnalyticPath}EMD 2 Ch.Analytique (2020) 2éme année.pdf`,
+      },
+      {
+        label: "EMD 2 Ch.Analytique (2022) 2ème année",
+        path: `${commonAnalyticPath}EMD 2 Ch.Analytique (2022) 2ème année.pdf`,
+      },
+      {
+        label: "EMD 2 Ch.Analytique (2023) 2ème année",
+        path: `${commonAnalyticPath}EMD 2 Ch.Analytique (2023) 2ème année.pdf`,
+      },
+      {
+        label: "EMDs Ch. analytique 2éme année",
+        path: `${commonAnalyticPath}EMDs Ch. analytique 2éme année.pdf`,
+      },
+      {
+        label: "Solutions emds exos ch.analytique",
+        path: `${commonAnalyticPath}Solutions emds exos ch.analytique.pdf`,
+      },
+      {
+        label: "Solutions exos ch.analytique (residanat 2011--2022)",
+        path: `${commonAnalyticPath}Solutions exos ch.analytique (residanat 2011--2022).pdf`,
+      },
+    ],
+  },
+  "FQ-2": {
+    links: [
+      {
+        label: "EMD 1 Biophysique (2020)",
+        path: `${commonBioPhysicPath}EMD 1 Biophysique (2020).pdf`,
+      },
+      {
+        label: "EMD 1 Biophysique (2023)",
+        path: `${commonBioPhysicPath}EMD 1 Biophysique (2023).pdf`,
+      },
+      {
+        label: "EMD 2 Biophysique (2018)",
+        path: `${commonBioPhysicPath}EMD 2 Biophysique (2018).pdf`,
+      },
+      {
+        label: "EMD 2 Biophysique (2019)",
+        path: `${commonBioPhysicPath}EMD 2 Biophysique (2019).pdf`,
+      },
+      {
+        label: "EMD 2 Biophysique (2020)",
+        path: `${commonBioPhysicPath}EMD 2 Biophysique (2020).pdf`,
+      },
+      {
+        label: "EMD 2 Biophysique (2023)",
+        path: `${commonBioPhysicPath}EMD 2 Biophysique (2023).pdf`,
+      },
+      {
+        label: "EMDs Biophysique",
+        path: `${commonBioPhysicPath}EMDs Biophysique.pdf`,
+      },
+    ],
+  },
+  "FQ-3": {
+    links: [
+      {
+        label: "EMD 1 Génétique  (2015)",
+        path: `${commonGeneticPath}EMD 1 Génétique  (2015).pdf`,
+      },
+      {
+        label: "EMD 1 Génétique  (2016)",
+        path: `${commonGeneticPath}EMD 1 Génétique  (2016).pdf`,
+      },
+      {
+        label: "EMD 1 Génétique  (2017)",
+        path: `${commonGeneticPath}EMD 1 Génétique  (2017).pdf`,
+      },
+      {
+        label: "EMD 1 Génétique  (2019)",
+        path: `${commonGeneticPath}EMD 1 Génétique  (2019).pdf`,
+      },
+      {
+        label: "EMD 1 Génétique (2020)",
+        path: `${commonGeneticPath}EMD 1 Génétique (2020).pdf`,
+      },
+      {
+        label: "EMD 1 Génétique (2021)",
+        path: `${commonGeneticPath}EMD 1 Génétique (2021).pdf`,
+      },
+      {
+        label: "EMD 1 Génétique (2022)",
+        path: `${commonGeneticPath}EMD 1 Génétique (2022).pdf`,
+      },
+      {
+        label: "EMD 1 Génétique (2023)",
+        path: `${commonGeneticPath}EMD 1 Génétique (2023).pdf`,
+      },
+      {
+        label: "EMD 2 Génétique (2018)",
+        path: `${commonGeneticPath}EMD 2 Génétique (2018).pdf`,
+      },
+      {
+        label: "EMD 2 Génétique (2019)",
+        path: `${commonGeneticPath}EMD 2 Génétique (2019).pdf`,
+      },
+      {
+        label: "EMD 2 Génétique (2020)",
+        path: `${commonGeneticPath}EMD 2 Génétique (2020).pdf`,
+      },
+      {
+        label: "EMD 2 Génétique (2021)",
+        path: `${commonGeneticPath}EMD 2 Génétique (2021).pdf`,
+      },
+      {
+        label: "EMD 2 Génétique (2022)",
+        path: `${commonGeneticPath}EMD 2 Génétique (2022).pdf`,
+      },
+      {
+        label: "EMD 2 Génétique (2023)",
+        path: `${commonGeneticPath}EMD 2 Génétique (2023).pdf`,
       },
     ],
   },

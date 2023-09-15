@@ -66,6 +66,10 @@ export const data = {
             title: "Les ultrasons et leurs applications médicales",
             path: "F-12",
           },
+          {
+            title: "EMDS et QCM",
+            path: "FQ-2",
+          },
         ],
       },
       {
@@ -104,6 +108,10 @@ export const data = {
           {
             title: "Pharmacogénétique",
             path: "F-20",
+          },
+          {
+            title: "EMDS et QCM",
+            path: "FQ-3",
           },
         ],
       },
