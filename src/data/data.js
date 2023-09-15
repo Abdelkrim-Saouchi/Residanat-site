@@ -36,6 +36,10 @@ export const data = {
             title: "Méthodes spectroscopiques",
             path: "F-07",
           },
+          {
+            title: "EMDS et QCM",
+            path: "FQ-1",
+          },
         ],
       },
       {
@@ -342,6 +346,10 @@ export const data = {
             title: "Les marqueurs cardiaques",
             path: "B-11",
           },
+          {
+            title: "EMDS et QCM",
+            path: "BQ-1",
+          },
         ],
       },
       {
@@ -410,6 +418,10 @@ export const data = {
               "le virus grippal, structure, diagnostic, traitement et prévention",
             path: "B-26",
           },
+          {
+            title: "EMDS et QCM",
+            path: "BQ-2",
+          },
         ],
       },
       {
@@ -467,6 +479,10 @@ export const data = {
             title: "Milieux de culture",
             path: "B-39",
           },
+          {
+            title: "EMDS et QCM",
+            path: "BQ-3",
+          },
         ],
       },
       {
@@ -499,6 +515,10 @@ export const data = {
           {
             title: "Les groupes sanguins érythrocytaires",
             path: "B-46",
+          },
+          {
+            title: "EMDS et QCM",
+            path: "BQ-4",
           },
         ],
       },

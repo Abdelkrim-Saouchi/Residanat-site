@@ -4,6 +4,7 @@ import ChemSvg from "../components/ChemSvg";
 import DownloadBar from "../components/DownloadBar";
 import PharmSvg from "../components/PharmSvg";
 import { data } from "../data/data";
+import { emds } from "../data/emds";
 import { lessons } from "../data/lessons";
 
 export const loader = ({ params }) => {
@@ -17,8 +18,15 @@ export const loader = ({ params }) => {
 
   const pathTitle = data[params.pathId].title;
   const lessonTitle = targetLesson.title;
-  const lesson = lessons[params.lessonId];
 
+  // if it'is QCM or EMD
+  if (params.lessonId.includes("Q")) {
+    const lesson = emds[params.lessonId];
+    return { pathTitle, lessonTitle, lesson };
+  }
+
+  //if it's lessons
+  const lesson = lessons[params.lessonId];
   return { pathTitle, lessonTitle, lesson };
 };
 
