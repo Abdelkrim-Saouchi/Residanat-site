@@ -7,6 +7,8 @@ const commonToxicoPath = "2023/pharmaceutiques/toxicologie/cours/";
 const commonGnosiePath = "2023/pharmaceutiques/pharmacognosie/cours/";
 const commonBioChemPath = "2023/biologiques/biochimie/cours/";
 const commonMicroPath = "2023/biologiques/microbiologie/cours/";
+const commonParasitoPath = "2023/biologiques/parasitologie/cours/";
+const commonHemoBioPath = "2023/biologiques/hemobiologie/cours/";
 
 export const lessons = {
   "F-01": {
@@ -981,20 +983,444 @@ export const lessons = {
         path: `${commonMicroPath}Gonocoque ( Neisseriaceae ).docx`,
       },
       {
-        label: "08-Pneumocoques + strptocoques 2023",
+        label: "03-Pneumocoques + Streptocoques 2023",
         path: `${commonMicroPath}STREPTOCOQUE.docx`,
       },
       {
-        label: "09-HAEMOPHILUS 2023",
+        label: "04-HAEMOPHILUS 2023",
         path: `${commonMicroPath}HAEMOPHILUS.docx`,
       },
       {
-        label: "10-E.coli K1 2023",
+        label: "05-E.coli K1 2023",
         path: `${commonMicroPath}Enterobacteries.pdf`,
       },
       {
-        label: "11-Lesteria 2023",
+        label: "06-Lesteria 2023",
         path: `${commonMicroPath}Listeria-monocytogenes-1.pdf`,
+      },
+      {
+        label: "07-Staphylocoques 2023",
+        path: `${commonMicroPath}STAPHYLOCOQUES.docx`,
+      },
+      {
+        label: "08-Entérocoques !! Non disponible !!",
+        path: "",
+      },
+    ],
+  },
+  "B-18": {
+    links: [
+      {
+        label: "01-Bacilles tuberculeux 2023",
+        path: `${commonMicroPath}07.1. Bacilles tuberculeux.pdf`,
+      },
+      {
+        label: "02-Mycobactéries atypiques 2023",
+        path: `${commonMicroPath}07.2. Mycobactéries atypiques.docx`,
+      },
+    ],
+  },
+  "B-19": {
+    links: [
+      {
+        label: "01-Enterobactéries 2023",
+        path: `${commonMicroPath}Enterobacteries.pdf`,
+      },
+      {
+        label: "02-Salmonella 2023",
+        path: `${commonMicroPath}Salmonella.doc`,
+      },
+      {
+        label: "03-SHIGELLA 2023",
+        path: `${commonMicroPath}SHIGELLA.doc`,
+      },
+      {
+        label: "04-VIBRIONACEAE 2023",
+        path: `${commonMicroPath}VIBRIONACEAE.doc23.doc`,
+      },
+      {
+        label: "05-Campylobacter-Helicobacter 2023",
+        path: `${commonMicroPath}Campylobacter - Helicobacter.pdf`,
+      },
+      {
+        label: "06-Staphylocoques 2023",
+        path: `${commonMicroPath}STAPHYLOCOQUES.docx`,
+      },
+      {
+        label: "07-Les bactéries anaérobies strictes 2023",
+        path: `${commonMicroPath}Les bactéries anaérobies strictes.doc`,
+      },
+      {
+        label: "08-Reoviridae-Rotavirus 2023",
+        path: `${commonMicroPath}Reoviridae-Rotavirus.pdf`,
+      },
+      {
+        label: "09-Astcovirus !! Non disponible !!",
+        path: `${commonMicroPath}Reoviridae-Rotavirus.pdf`,
+      },
+      {
+        label: "10-PICORNAVIRUS 2023",
+        path: `${commonMicroPath}PICORNAVIRUS.pdf`,
+      },
+      {
+        label: "11-Entérovirus !! Non disponible !!",
+        path: "",
+      },
+    ],
+  },
+  "B-20": {
+    links: [
+      {
+        label: "00-ECBU 2023",
+        path: `${commonMicroPath}09. ECBU.pdf`,
+      },
+      {
+        label: "01-Enterobactéries 2023",
+        path: `${commonMicroPath}Enterobacteries.pdf`,
+      },
+      {
+        label: "02-Entérocoques !! Non disponible !!",
+        path: "",
+      },
+      {
+        label: "03-Staphylocoques 2023",
+        path: `${commonMicroPath}STAPHYLOCOQUES.docx`,
+      },
+      {
+        label: "04-Streptocoques 2023",
+        path: `${commonMicroPath}STREPTOCOQUE.docx`,
+      },
+    ],
+  },
+  "B-21": {
+    links: [
+      {
+        label: "01-Bactériémie 2023",
+        path: `${commonMicroPath}10. Bactériémie.pdf`,
+      },
+    ],
+  },
+  "B-22": {
+    links: [
+      {
+        label: "01-Gonocoques 2023",
+        path: `${commonMicroPath}Gonocoque ( Neisseriaceae ).docx`,
+      },
+      {
+        label: "02-CHLAMYDIA-TRACHOMATIS 2023",
+        path: `${commonMicroPath}CHLAMYDIA-TRACHOMATIS.docx`,
+      },
+      {
+        label: "03-Mycoplasmes 2023",
+        path: `${commonMicroPath}Mycoplasmes.docx`,
+      },
+      {
+        label: "04-Syphilis 2023",
+        path: `${commonMicroPath}Tréponèmes.docx`,
+      },
+      {
+        label: "05-HAEMOPHILUS 2023",
+        path: `${commonMicroPath}HAEMOPHILUS.docx`,
+      },
+      {
+        label: "06-Hépatites virales 2023",
+        path: `${commonMicroPath}13. Hépatites virales.pdf`,
+      },
+      {
+        label: "07-VIH 2023",
+        path: `${commonMicroPath}12. VIH-2023.pdf`,
+      },
+      {
+        label: "08-Herpesvirus 2023",
+        path: `${commonMicroPath}Herpesvirus.pdf`,
+      },
+    ],
+  },
+  "B-23": {
+    links: [
+      {
+        label: "01-VIH 2023",
+        path: `${commonMicroPath}12. VIH-2023.pdf`,
+      },
+    ],
+  },
+  "B-24": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonMicroPath}13. Hépatites virales.pdf`,
+      },
+    ],
+  },
+  "B-25": {
+    links: [
+      {
+        label: "01-Vaccins Bactriens 2023",
+        path: `${commonMicroPath}14.1. Vaccins-bactriens.pdf`,
+      },
+      {
+        label: "02-Vaccins Viraux 2023",
+        path: `${commonMicroPath}14.2. VACCINS-VIRAUX-.pdf`,
+      },
+    ],
+  },
+  "B-26": {
+    links: [
+      {
+        label: "01-Orthomyxoviridae 2023",
+        path: `${commonMicroPath}15. Orthomyxoviridae.pdf`,
+      },
+    ],
+  },
+  "B-27": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonParasitoPath}01. Amibiase.pdf`,
+      },
+    ],
+  },
+  "B-28": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonParasitoPath}02. Leishmaniose.pdf`,
+      },
+    ],
+  },
+  "B-29": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonParasitoPath}03. Toxoplasmose.pdf`,
+      },
+    ],
+  },
+  "B-30": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonParasitoPath}04. Paludisme.pdf`,
+      },
+    ],
+  },
+  "B-31": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonParasitoPath}05. Bilharziose ( Schitosomes ).doc`,
+      },
+    ],
+  },
+  "B-32": {
+    links: [
+      {
+        label: "01-Cestodes adultes 2023",
+        path: `${commonParasitoPath}06.1. Cestodes adultes.pdf`,
+      },
+      {
+        label: "02-Cestodes larvaires 2023",
+        path: `${commonParasitoPath}06.2. Cestodes larvaires .pdf`,
+      },
+    ],
+  },
+  "B-33": {
+    links: [
+      {
+        label: "01-Nématodes à transmission per os 2023",
+        path: `${commonParasitoPath}07.1. Nématodes à transmission per os.pdf`,
+      },
+      {
+        label: "02-Nématodes-Intestinaux-Transcutanée 2023",
+        path: `${commonParasitoPath}07.2. Nematodes-Intestinaux-Transcutanée.pdf`,
+      },
+    ],
+  },
+  "B-34": {
+    links: [
+      {
+        label: "01-Dermatophyties ou teignes 2023",
+        path: `${commonParasitoPath}08.1. Dermatophyties ou teignes.pdf`,
+      },
+      {
+        label: "02-Candida-et-Candidoses 2023",
+        path: `${commonParasitoPath}08.2. Candida-et-Candidoses.pdf`,
+      },
+      {
+        label: "03-Malessezioses (Pityriasis-versicolor) 2023",
+        path: `${commonParasitoPath}08.3. Malessezioses (Pityriasis-versicolor)  .pdf`,
+      },
+    ],
+  },
+  "B-35": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonParasitoPath}09. Aspergillus-et-aspergilloses.pdf`,
+      },
+    ],
+  },
+  "B-36": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonParasitoPath}10. Distomes et Distomatoses.pdf`,
+      },
+    ],
+  },
+  "B-37": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonParasitoPath}11. Cryptococcose.pdf`,
+      },
+    ],
+  },
+  "B-38": {
+    links: [
+      {
+        label: "01-Sporotrichose 2023",
+        path: `${commonParasitoPath}12.1. Sporotrichose.pdf`,
+      },
+      {
+        label: "02-Les mycetomes 2023",
+        path: `${commonParasitoPath}12.2. Les mycetomes.pdf`,
+      },
+    ],
+  },
+  "B-39": {
+    links: [
+      {
+        label: "01-Milieux de culture en parasitologie",
+        path: `${commonParasitoPath}13.1 Milieux de culture en parasitologie .pdf`,
+      },
+      {
+        label: "02-Milieux de culture en mycologie",
+        path: `${commonParasitoPath}13.2 Milieux de culture en mycologie.ppt.pdf`,
+      },
+      {
+        label: "03-Recherche des parasites sanguicoles",
+        path: `${commonParasitoPath}16. Recherche des parasites sanguicoles.pdf`,
+      },
+    ],
+  },
+  "B-40": {
+    links: [
+      {
+        label: "01-Erythropoiese 2023",
+        path: `${commonHemoBioPath}01. Erythropoiese.pdf`,
+      },
+      {
+        label: "02-Facteur de l'erythropoeise 2023",
+        path: `${commonHemoBioPath}02. Facteur de l'erythropoeise.pdf`,
+      },
+      {
+        label: "03-Hémoglobine 2023",
+        path: `${commonHemoBioPath}03. Hémoglobine.pdf`,
+      },
+      {
+        label: "04-La membrane érythrocytaire 2023",
+        path: `${commonHemoBioPath}04. La membrane érythrocytaire.pdf`,
+      },
+    ],
+  },
+  "B-41": {
+    links: [
+      {
+        label: "01-Généralitées sur les anémies 2023",
+        path: `${commonHemoBioPath}06. Généralitées sur les anémies.pdf`,
+      },
+      {
+        label: "02-Anémies microcytaires 2023",
+        path: `${commonHemoBioPath}08. Anémies microcytaires.pdf`,
+      },
+      {
+        label: "03-Anémie macrocytaire 2023",
+        path: `${commonHemoBioPath}07. Anémie macrocytaire.pdf`,
+      },
+      {
+        label: "04-Hémolyse physiologique et pathologique 2023",
+        path: `${commonHemoBioPath}05. Hémolyse physiologique et pathologique.pdf`,
+      },
+      {
+        label: "05-Anémies Hémolytiques 2023",
+        path: `${commonHemoBioPath}09. Anémies Hémolytiques 2022-23.pdf`,
+      },
+    ],
+  },
+  "B-42": {
+    links: [
+      {
+        label: "01-Granulopoièse 2023",
+        path: `${commonHemoBioPath}10. Granulopoièse 2022-23.pdf`,
+      },
+      {
+        label: "02-Monocyte et Macrophage 2023",
+        path: `${commonHemoBioPath}11. Monocyte et Macrophage.pdf`,
+      },
+      {
+        label: "03-Polynucléaires-Mastocytes 2023",
+        path: `${commonHemoBioPath}12. Polynucléaires-Mastocytes.pdf`,
+      },
+    ],
+  },
+  "B-43": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonHemoBioPath}13. Lymphopoiese & Lymphocytes 2022-2023.pdf`,
+      },
+    ],
+  },
+  "B-44": {
+    links: [
+      {
+        label: "01-Hémostase primaire et son exploration 2023",
+        path: `${commonHemoBioPath}14. Hémostase primaire et son exploration.pdf`,
+      },
+      {
+        label: "02-Physiologie de la coagulation 2023",
+        path: `${commonHemoBioPath}15.1. Physiologie de la coagulation..pdf`,
+      },
+      {
+        label: "03-Exploration de la coagulation 2023",
+        path: `${commonHemoBioPath}15.2. Exploration de la coagulation..pdf`,
+      },
+      {
+        label: "04-Fibrinolyse et son exploration 2023",
+        path: `${commonHemoBioPath}16. Fibrinolyse et son exploration 2023.pdf`,
+      },
+    ],
+  },
+  "B-45": {
+    links: [
+      {
+        label: "01-Cours 2023",
+        path: `${commonHemoBioPath}17. HEMOPHILIE.pdf`,
+      },
+    ],
+  },
+  "B-46": {
+    links: [
+      {
+        label: "01-Le système ABO 2023",
+        path: `${commonHemoBioPath}18. Le système ABO.pdf`,
+      },
+      {
+        label: "02-Le système Rhésus et les autres systèmes immunogènes 2023",
+        path: `${commonHemoBioPath}19. Le système Rhésus et les autres systèmes immunogènes.pdf`,
+      },
+      {
+        label: "03-Allo-Immunisation 2023",
+        path: `${commonHemoBioPath}20. Allo-Immunisation.pdf`,
+      },
+      {
+        label: "04-Produits sanguins labiles 2023",
+        path: `${commonHemoBioPath}21. Produits sanguins labiles.pdf`,
+      },
+      {
+        label: "01-Don du sang 2023",
+        path: `${commonHemoBioPath}22. Don du sang.pptx`,
       },
     ],
   },

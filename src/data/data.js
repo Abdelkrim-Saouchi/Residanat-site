@@ -463,6 +463,10 @@ export const data = {
             title: "Mycetomes sporotrichose",
             path: "B-38",
           },
+          {
+            title: "Milieux de culture",
+            path: "B-39",
+          },
         ],
       },
       {
@@ -470,31 +474,31 @@ export const data = {
         lessons: [
           {
             title: "La lignée érythroblastique",
-            path: "B-39",
-          },
-          {
-            title: "Diagnostic biologique des anémies",
             path: "B-40",
           },
           {
-            title: "La lignée granulocytaire",
+            title: "Diagnostic biologique des anémies",
             path: "B-41",
           },
           {
-            title: "La lignée lymphoïde",
+            title: "La lignée granulocytaire",
             path: "B-42",
           },
           {
-            title: "Physiologie de l'Hémostase",
+            title: "La lignée lymphoïde",
             path: "B-43",
           },
           {
-            title: "Hémophilie",
+            title: "Physiologie de l'Hémostase",
             path: "B-44",
           },
           {
-            title: "Les groupes sanguins érythrocytaires",
+            title: "Hémophilie",
             path: "B-45",
+          },
+          {
+            title: "Les groupes sanguins érythrocytaires",
+            path: "B-46",
           },
         ],
       },
