@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import LessonPage, { loader as lessonLoader } from "./pages/LessonPage";
 import Paths, { loader as pathsLoader } from "./pages/Paths";
 
+import Extra, { loader as extraLoader } from "./pages/Extra";
 import PathPage, { loader as pathPageLoader } from "./pages/PathPage";
 import Tech from "./pages/Tech";
 
@@ -40,6 +41,11 @@ const router = createBrowserRouter([
         path: "paths/:pathId/:lessonId",
         element: <LessonPage />,
         loader: lessonLoader,
+      },
+      {
+        path: "extra",
+        element: <Extra />,
+        loader: extraLoader,
       },
     ],
   },
