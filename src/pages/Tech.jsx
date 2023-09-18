@@ -1,6 +1,6 @@
 const Tech = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center gap-6 bg-gray-900 px-20 py-10 text-neutral-200">
+    <main className="flex min-h-screen flex-col items-center gap-6 bg-gray-900 px-4 py-10 text-neutral-200 md:px-20">
       <h2 className="text-3xl font-bold">À propos de ce site web</h2>
       <p className="max-w-2xl leading-relaxed opacity-75">
         DISCIPULUS propose des ressources précieuses que j'aurais aimé avoir
