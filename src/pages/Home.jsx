@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <main className="flex min-h-screen justify-center bg-gray-900 px-4 text-neutral-200 md:px-20">
       <div className="mt-20 flex max-w-3xl flex-col items-center gap-8">
-        <h2 className="text-center text-3xl font-bold md:text-5xl">
+        <h2 className="text-center text-4xl font-bold md:text-5xl">
           Votre
           <span className="text-green-400">
             {" "}
