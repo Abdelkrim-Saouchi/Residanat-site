@@ -28,11 +28,11 @@ const Header = () => {
             alt="logo"
             className="mr-3 inline w-8 text-green-400"
           />
-          <h1 className="inline hidden font-logo text-3xl font-bold">
+          <h1 className="hidden font-logo text-3xl font-bold md:inline">
             Discipulus
           </h1>
         </Link>
-        <nav className="mx-8 hidden">
+        <nav className="mx-8 hidden md:block">
           <ul className="flex items-center justify-between gap-8">
             <li>
               <Link to="/paths" className="hover:text-green-400">
@@ -56,14 +56,14 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        <button onClick={toggleNavMenu}>
+        <button onClick={toggleNavMenu} className="md:hidden">
           <Icon path={mdiMenu} size={1.5} />
         </button>
       </header>
 
       <div
         ref={menuRef}
-        className="fixed inset-0 z-10 min-h-screen origin-left -translate-x-full bg-black bg-opacity-70 text-neutral-200 transition-transform delay-300 duration-300 ease-in-out"
+        className="fixed inset-0 z-10 min-h-screen origin-left -translate-x-full bg-black bg-opacity-70 text-neutral-200 transition-transform delay-300 duration-300 ease-in-out md:hidden"
       >
         <div
           ref={navRef}
