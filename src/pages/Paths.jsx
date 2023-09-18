@@ -13,7 +13,7 @@ const Paths = () => {
   const { fundamentals, pharmaceutical, biology } = useLoaderData();
 
   return (
-    <main className="flex min-h-screen flex-col items-center gap-6 bg-gray-900 px-20 py-10 text-neutral-200">
+    <main className="flex min-h-screen flex-col items-center gap-6 bg-gray-900 px-4 py-10 text-neutral-200 md:px-20">
       <h2 className="text-2xl font-bold">Parcours</h2>
       <PathCard svg={<ChemSvg />} {...fundamentals} />
       <PathCard svg={<PharmSvg />} {...pharmaceutical} />
