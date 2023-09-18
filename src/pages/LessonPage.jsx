@@ -43,13 +43,17 @@ const LessonPage = () => {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center bg-gray-900 px-20 py-10 text-neutral-200">
-      <div className="w-2/3">
-        <div className="mb-14 flex items-center gap-6">
-          {icon}
+    <main className="flex min-h-screen flex-col items-center bg-gray-900 px-4 py-10 text-neutral-200 md:px-20">
+      <div className="md:w-2/3">
+        <div className="mb-14 flex flex-col items-center gap-6 md:flex-row">
+          <div>{icon}</div>
           <div>
-            <h2 className="text-2xl font-bold">{lessonTitle}</h2>
-            <h3 className="font-bold opacity-60">{pathTitle}</h3>
+            <h2 className="text-center text-2xl font-bold md:text-left">
+              {lessonTitle}
+            </h2>
+            <h3 className="text-center font-bold opacity-60 md:text-left">
+              {pathTitle}
+            </h3>
           </div>
         </div>
         {lesson.links.map((link, index) => (
