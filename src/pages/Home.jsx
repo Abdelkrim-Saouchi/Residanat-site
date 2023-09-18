@@ -18,7 +18,7 @@ const Home = () => {
           pharmaceutique.
         </p>
         <Link
-          className="rounded border border-neutral-200 px-6 py-2 font-bold hover:bg-gray-600"
+          className="rounded border border-neutral-200 px-6 py-2 text-center font-bold hover:bg-gray-600"
           to="/paths"
         >
           Voir les cours
