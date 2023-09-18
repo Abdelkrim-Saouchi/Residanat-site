@@ -3,12 +3,12 @@ import Icon from "@mdi/react";
 
 const Contact = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center gap-6 bg-gray-900 px-20 py-10 text-neutral-200">
+    <main className="flex min-h-screen flex-col items-center gap-6 bg-gray-900 px-4 py-10 text-neutral-200 md:px-20">
       <div className="flex flex-col items-center text-center">
         <h2 className="mb-6 text-3xl font-bold">
           Souhaitez-vous me contacter?
         </h2>
-        <p className="mb-6 max-w-2xl leading-relaxed opacity-80">
+        <p className="mb-6 max-w-2xl  opacity-80">
           Ce site web a été créé par{" "}
           <span className="font-bold text-green-400">Krimothiazine</span>,
           pharmacien et développeur web. Si vous souhaitez contribuer à
