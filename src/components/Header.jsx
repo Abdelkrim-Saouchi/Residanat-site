@@ -6,10 +6,19 @@ import {
   mdiMessageProcessing,
 } from "@mdi/js";
 import { default as Icon } from "@mdi/react";
+import { useRef } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
 
 const Header = () => {
+  const menuRef = useRef(null);
+  const navRef = useRef(null);
+
+  const toggleNavMenu = () => {
+    menuRef.current.classList.toggle("-translate-x-full");
+    navRef.current.classList.toggle("-translate-x-full");
+  };
+
   return (
     <>
       <header className="flex w-full items-center justify-between border-b border-gray-700 bg-gray-900 px-4 py-2 text-neutral-200 md:px-20">
@@ -47,13 +56,26 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        <button>
+        <button onClick={toggleNavMenu}>
           <Icon path={mdiMenu} size={1.5} />
         </button>
       </header>
-      <div className="fixed inset-0 z-10 min-h-screen bg-black bg-opacity-50 text-neutral-200">
-        <div className="min-h-full w-3/4 bg-gray-800 px-4 py-2">
-          <Link className="flex items-center" to="/">
+
+      <div
+        ref={menuRef}
+        className="fixed inset-0 z-10 min-h-screen origin-left -translate-x-full bg-black bg-opacity-70 text-neutral-200 transition-transform delay-300 duration-300 ease-in-out"
+      >
+        <div
+          ref={navRef}
+          className="min-h-full w-2/3 origin-left -translate-x-full bg-gray-800 px-4 py-2 transition-transform delay-500 duration-700 ease-in-out"
+        >
+          <button
+            onClick={toggleNavMenu}
+            className="absolute right-24 p-1 font-bold hover:border hover:border-neutral-200 focus:rounded-[50%] focus:border focus:border-neutral-200"
+          >
+            X
+          </button>
+          <Link onClick={toggleNavMenu} className="flex items-center" to="/">
             <img
               src={logo}
               alt="logo"
@@ -65,6 +87,7 @@ const Header = () => {
             <ul className="flex flex-col gap-4">
               <li>
                 <Link
+                  onClick={toggleNavMenu}
                   to="/paths"
                   className="flex items-center gap-2 px-2 hover:text-green-400"
                 >
@@ -74,6 +97,7 @@ const Header = () => {
               </li>
               <li>
                 <Link
+                  onClick={toggleNavMenu}
                   to="/extra"
                   className="flex items-center gap-2 px-2 hover:text-green-400"
                 >
@@ -82,6 +106,7 @@ const Header = () => {
               </li>
               <li>
                 <Link
+                  onClick={toggleNavMenu}
                   to="/tech"
                   className="flex items-center gap-2 px-2 hover:text-green-400"
                 >
@@ -90,6 +115,7 @@ const Header = () => {
               </li>
               <li>
                 <Link
+                  onClick={toggleNavMenu}
                   to="/contact"
                   className="flex items-center gap-2 px-2 hover:text-green-400"
                 >
