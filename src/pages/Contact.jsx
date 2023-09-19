@@ -33,7 +33,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://www.facebook.com/profile.php?id=100005904095028"
+            href="https://www.facebook.com/profile.php?id=61551593846619"
             target="_blank"
             rel="noreferrer"
             className="hover:text-green-600"
@@ -50,7 +50,9 @@ const Contact = () => {
           Facebook.
         </p>
         <a
-          href="#"
+          href="https://www.facebook.com/groups/273700282225645"
+          target="_blank"
+          rel="noreferrer"
           className="rounded-md bg-gray-600 px-8 py-2 hover:bg-gray-500"
         >
           Rejoindre
