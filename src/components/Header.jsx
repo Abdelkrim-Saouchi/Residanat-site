@@ -7,7 +7,7 @@ import {
 } from "@mdi/js";
 import { default as Icon } from "@mdi/react";
 import { useRef } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/logo.svg";
 
 const Header = () => {
@@ -28,31 +28,59 @@ const Header = () => {
             alt="logo"
             className="mr-3 inline w-8 text-green-400"
           />
-          <h1 className="hidden font-logo text-3xl font-bold md:inline">
+          <h1 className="hidden font-logo text-3xl font-black md:inline">
             Discipulus
           </h1>
         </Link>
         <nav className="mx-8 hidden md:block">
           <ul className="flex items-center justify-between gap-8">
             <li>
-              <Link to="/paths" className="hover:text-green-400">
+              <NavLink
+                to="/paths"
+                className={({ isActive }) =>
+                  isActive
+                    ? "font-semibold text-green-400"
+                    : "font-semibold hover:text-green-400"
+                }
+              >
                 Parcours
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/extra" className="hover:text-green-400">
+              <NavLink
+                to="/extra"
+                className={({ isActive }) =>
+                  isActive
+                    ? "font-semibold text-green-400"
+                    : "font-semibold hover:text-green-400"
+                }
+              >
                 Extra
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/tech" className="hover:text-green-400">
+              <NavLink
+                to="/tech"
+                className={({ isActive }) =>
+                  isActive
+                    ? "font-semibold text-green-400"
+                    : "font-semibold hover:text-green-400"
+                }
+              >
                 Technologies
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-green-400">
+              <NavLink
+                to="/contact"
+                className={({ isActive }) =>
+                  isActive
+                    ? "font-semibold text-green-400"
+                    : "font-semibold hover:text-green-400"
+                }
+              >
                 Contact
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </nav>
@@ -67,11 +95,11 @@ const Header = () => {
       >
         <div
           ref={navRef}
-          className="min-h-full w-2/3 origin-left -translate-x-full bg-gray-800 px-4 py-2 transition-transform delay-500 duration-700 ease-in-out"
+          className="min-h-full w-2/3 origin-left -translate-x-full border border-gray-700 bg-gray-800 px-4 py-2 transition-transform delay-500 duration-700 ease-in-out"
         >
           <button
             onClick={toggleNavMenu}
-            className="absolute right-24 p-1 font-bold hover:border hover:border-neutral-200 focus:rounded-[50%] focus:border focus:border-neutral-200"
+            className="absolute right-24 p-1 text-2xl font-bold hover:border hover:border-neutral-200 focus:rounded-[50%] focus:border focus:border-neutral-200"
           >
             X
           </button>
@@ -86,42 +114,58 @@ const Header = () => {
           <nav className="mt-4">
             <ul className="flex flex-col gap-4">
               <li>
-                <Link
+                <NavLink
                   onClick={toggleNavMenu}
                   to="/paths"
-                  className="flex items-center gap-2 px-2 hover:text-green-400"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "flex items-center gap-2 rounded-md bg-gray-700 px-2 py-2"
+                      : "flex items-center gap-2 rounded-md px-2 py-2 hover:text-green-400"
+                  }
                 >
                   <Icon path={mdiBookOpenPageVariantOutline} size={1} />
                   Parcours
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link
+                <NavLink
                   onClick={toggleNavMenu}
                   to="/extra"
-                  className="flex items-center gap-2 px-2 hover:text-green-400"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "flex items-center gap-2 rounded-md bg-gray-700 px-2 py-2"
+                      : "flex items-center gap-2 rounded-md px-2 py-2 hover:text-green-400"
+                  }
                 >
                   <Icon path={mdiCharity} size={1} /> Extra
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link
+                <NavLink
                   onClick={toggleNavMenu}
                   to="/tech"
-                  className="flex items-center gap-2 px-2 hover:text-green-400"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "flex items-center gap-2 rounded-md bg-gray-700 px-2 py-2"
+                      : "flex items-center gap-2 rounded-md px-2 py-2 hover:text-green-400"
+                  }
                 >
                   <Icon path={mdiDevTo} size={1} /> Technologies
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link
+                <NavLink
                   onClick={toggleNavMenu}
                   to="/contact"
-                  className="flex items-center gap-2 px-2 hover:text-green-400"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "flex items-center gap-2 rounded-md bg-gray-700 px-2 py-2"
+                      : "flex items-center gap-2 rounded-md px-2 py-2 hover:text-green-400"
+                  }
                 >
                   <Icon path={mdiMessageProcessing} size={1} />
                   Contact
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </nav>
