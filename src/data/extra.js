@@ -52,5 +52,9 @@ export const extra = {
       label: "13. Chaine youtube en parasitologie",
       path: "https://www.youtube.com/playlist?list=PLsjxu-h3dab1dIQJZNmjdHZG79f1kONRw",
     },
+    {
+      label: "14. residanat25.epizy.com site",
+      path: "https://www.residanat25.epizy.com/",
+    },
   ],
 };
