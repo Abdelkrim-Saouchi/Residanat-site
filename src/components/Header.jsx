@@ -58,7 +58,7 @@ const Header = () => {
                 Extra
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink
                 to="/tech"
                 className={({ isActive }) =>
@@ -69,7 +69,7 @@ const Header = () => {
               >
                 Technologies
               </NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink
                 to="/contact"

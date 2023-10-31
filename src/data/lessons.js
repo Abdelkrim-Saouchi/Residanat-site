@@ -26,7 +26,11 @@ export const lessons = {
         path: `${commonAnalyticPath}01.2 La Chimie des solutions.pdf`,
       },
       {
-        label: "04-Les méthodes de mesures de PH 2022",
+        label: "04.1-Les indicateurs colorés 2023",
+        path: `${commonAnalyticPath}9-les indicateurs colorés.pdf`,
+      },
+      {
+        label: "04.2-Les méthodes de mesures de PH 2022",
         path: `alternatives/fondamentales/analytiques/cours/2-2-Les-méthodes-de-mesure-du-pH.pdf`,
       },
       {
@@ -38,7 +42,15 @@ export const lessons = {
         path: `${commonAnalyticPath}1.4.2 pH-des-solutions-de-mélange-Constantine.pdf`,
       },
       {
-        label: "07-La protométrie en mélieux non aqueux 2023",
+        label: "07-Systèmes tampons 2023",
+        path: `${commonAnalyticPath}7-systemes tampons constantine.pdf`,
+      },
+      {
+        label: "08-Cours de neutralisation 2023",
+        path: `${commonAnalyticPath}8-COURS neutralisation Constantine.pdf`,
+      },
+      {
+        label: "09-La protométrie en mélieux non aqueux 2023",
         path: `${commonAnalyticPath}01.5 La protométrie en milieu non aqueux.pdf`,
       },
     ],
@@ -51,7 +63,15 @@ export const lessons = {
       },
       {
         label: "02-Dosages oxydo-reductimétriques 2023",
-        path: `${commonAnalyticPath}02.2 DO,SAGES OXYDO-REDUCTIMETRIQUES.pdf`,
+        path: `${commonAnalyticPath}02.2 DOSAGES OXYDO-REDUCTIMETRIQUES.pdf`,
+      },
+      {
+        label: "03-METHODES ELECTROCHIMIQUES (I) 2023",
+        path: `${commonAnalyticPath}3-METHODES ELECTROCHIMIQUES (I).pdf`,
+      },
+      {
+        label: "04-METHODES ELECTROCHIMIQUES (II) 2023",
+        path: `${commonAnalyticPath}4-METHODES ELECTROCHIMIQUES (II).pdf`,
       },
     ],
   },
@@ -78,7 +98,11 @@ export const lessons = {
         path: `${commonAnalyticPath}05- METHODES DE SEPARATION.pdf`,
       },
       {
-        label: "02-Extraction liquide liquide 2020",
+        label: "02.1-Extraction liquide liquide 2023",
+        path: `${commonAnalyticPath}1. ELL.pdf`,
+      },
+      {
+        label: "02.2-Extraction liquide liquide 2020",
         path: "alternatives/fondamentales/analytiques/cours/9-Extraction liquide-liquide Lalouna (2020) + notes.pdf",
       },
     ],
@@ -98,15 +122,19 @@ export const lessons = {
         path: `${commonAnalyticPath}06.2 HPLC.pdf`,
       },
       {
-        label: "04-CPG 2023",
+        label: "04-Optimisation des méthodes  chromatographiques 2023",
+        path: `${commonAnalyticPath}2.Optimisation des méthodes  chromatographiques.pdf`,
+      },
+      {
+        label: "05-CPG 2023",
         path: `${commonAnalyticPath}06.3 CPG .pdf`,
       },
       {
-        label: "05-CCM 2023",
+        label: "06-CCM 2023",
         path: `${commonAnalyticPath}06.4 CCM.pdf`,
       },
       {
-        label: "06-Elécrophorèse capillaire 2023",
+        label: "07-Elécrophorèse capillaire 2023",
         path: `${commonAnalyticPath}06.5 Electophorèse capillaire.pdf`,
       },
     ],
@@ -174,11 +202,7 @@ export const lessons = {
   "F-13": {
     links: [
       {
-        label: "01-Hybridation moléculaire 2023",
-        path: `${commonGeneticPath}12. Hybridation moléculaire.ppt`,
-      },
-      {
-        label: "02-Lois de Mendel 2023",
+        label: "01-Lois de Mendel 2023",
         path: `${commonGeneticPath}10. Génétique formelle (Mendel).ppt`,
       },
     ],
@@ -226,15 +250,19 @@ export const lessons = {
   "F-16": {
     links: [
       {
-        label: "01-Les sondes 2023",
+        label: "01-Hybridation moléculaire 2023",
+        path: `${commonGeneticPath}12. Hybridation moléculaire.ppt`,
+      },
+      {
+        label: "02-Les sondes 2023",
         path: `${commonGeneticPath}13. Les sondes.ppt`,
       },
       {
-        label: "02-Les Enzymes de restrictions 2023",
+        label: "03-Les Enzymes de restrictions 2023",
         path: `${commonGeneticPath}14. Les Enzymes de restriction et modification.ppt`,
       },
       {
-        label: "03-Les vecteurs de clonage 2023",
+        label: "04-Les vecteurs de clonage 2023",
         path: `${commonGeneticPath}15. Les Vecteurs de clonage.ppt`,
       },
     ],
@@ -266,7 +294,7 @@ export const lessons = {
   "F-20": {
     links: [
       {
-        label: "!! non désponible !!",
+        label: "!! non disponible !!",
         path: "",
       },
     ],
@@ -354,72 +382,86 @@ export const lessons = {
   "P-08": {
     links: [
       {
-        label: "01-Conception d'une unité pharmaceutique 2022",
-        path: `${commonGalenicPath}08.1 BPF-Conception-dune-unité-pharmaceutique.pdf`,
+        label: "01-Conception d'une unité pharmaceutique 2023",
+        path: `${commonGalenicPath}1-Conception d'une unité pharmaceutique.pdf`,
       },
       {
-        label: "02-Conception d'une usine pharmaceutique 2022",
-        path: `${commonGalenicPath}08.2 BPF-Conception-dune-usine-pharmaceutique-ZAC-.pdf`,
+        label: "02-Conception d'une usine pharmaceutique 2023",
+        path: `${commonGalenicPath}2-Conception d'une usine pharmaceutique -ZAC-.pdf`,
       },
       {
-        label: "03-Matières premières 2020",
-        path: `${commonGalenicPath}08.3 BPF-Matiere Premiere.pptx`,
+        label: "03-Developpement des médicaments 2023",
+        path: `${commonGalenicPath}3-Developpement des médicaments.pdf`,
       },
       {
-        label: "04-Développement des médicaments 2020",
-        path: `${commonGalenicPath}08.4 BPF-développement des médicaments 2020_Khodja.pdf`,
+        label: "04-assurance qualité 2023",
+        path: `${commonGalenicPath}4-assurance qualité.docx`,
       },
       {
-        label: "05-Transpositon d'échelle 2020",
-        path: `${commonGalenicPath}08.5 BPF-Transposition d'échelle 2020_Khodja-1.pdf`,
+        label: "05-AMM 2023",
+        path: `${commonGalenicPath}5-AMM .pptx`,
       },
       {
-        label: "06-AMM 2018",
-        path: `${commonGalenicPath}08.6 BPF-AMM 2018.pdf`,
+        label: "06-qualification et validation 2023",
+        path: `${commonGalenicPath}6-qualification et validation .docx`,
       },
       {
-        label: "07-Assurance qualité 2020",
-        path: `${commonGalenicPath}08.7 BPF-L'assurance qualité 2020-1.pdf`,
+        label: "07-MP 2023",
+        path: `${commonGalenicPath}7-MP.pdf`,
       },
       {
-        label: "08-Qualification des équipements 2020",
-        path: `${commonGalenicPath}08.8 BPF-Qualification des équipements 2020 _ Khoja.pdf`,
+        label: "08- transposition d'échelle 2023",
+        path: `${commonGalenicPath}8- transposition d'échelle.pdf`,
       },
       {
-        label: "09-La validation part I 2020",
-        path: `${commonGalenicPath}08.9 BPF-la validation 2020_Part1.pdf`,
+        label: "09-Dissolution 2023",
+        path: `${commonGalenicPath}9-Dissolution.pptx`,
       },
       {
-        label: "09-La validation part II 2020",
-        path: `${commonGalenicPath}08.9 BPF-la validation 2020_Part2.pdf`,
+        label: "10-Contrôle  qualité dans les BPF 2023",
+        path: `${commonGalenicPath}10.Contrôle  qualité dans les BPF.pdf`,
       },
       {
-        label: "10-Développemnt et validation des méthodes analytiques 2020",
-        path: `${commonGalenicPath}08.10 BPF-Développement et validation des méthodes analytiques (2020).pdf`,
+        label:
+          "11-Aspects Organisationnel d’un laboratoire de contrôle qualité 2023",
+        path: `${commonGalenicPath}11-Aspects Organisationnel d’un laboratoire de contrôle qualité( cours 1).pdf`,
       },
       {
-        label: "11-Dissolution des formes orales solides 2020",
-        path: `${commonGalenicPath}08.11 BPF-Dissolution des formes orales solides 2020.pptx`,
+        label: "12-Conformité et libération de lots 2023",
+        path: `${commonGalenicPath}12.Conformité et libération de lots.pdf`,
       },
       {
-        label: "12-Controle des matières premières 2020",
-        path: `${commonGalenicPath}08.12 BPF-Contrôle des matières premières (2020).pdf`,
+        label: "13-Controle MPUP 2023",
+        path: `${commonGalenicPath}13.Controle MPUP.pdf`,
       },
       {
-        label: "13-Controle de produit fini 2020",
-        path: `${commonGalenicPath}08.14 BPF-control de produit fini Achour-Bouakkaz.pdf`,
+        label: "14-controle PF 2023",
+        path: `${commonGalenicPath}14.controle PF.pdf`,
       },
       {
-        label: "14-Notions de libération et de conformité des lots 2020",
-        path: `${commonGalenicPath}08.16 BPF-Notions de libération et conformité des lots (2020).pdf`,
+        label: "15-Echantillonnage et prélèvements 2023",
+        path: `${commonGalenicPath}15.Echantillonnage et prélèvements.pdf`,
       },
       {
-        label: "15-Traitement de l'air et la maitrise de la contamination 2020",
+        label: "16-VALIDATION DES METHODES  ANALYTIQUES 2023",
+        path: `${commonGalenicPath}16.VALIDATION DES METHODES  ANALYTIQUES.pdf`,
+      },
+      {
+        label: "17-Qualification 2023",
+        path: `${commonGalenicPath}`,
+      },
+
+      {
+        label: "18-Traitement de l'air et la maitrise de la contamination 2020",
         path: `${commonGalenicPath}08.17 BPF-Traitement de l’air et maitrise de la contamination (2020).pdf`,
       },
       {
-        label: "16-Bonnes pratiques de fabrication selon l'ANSM",
+        label: "19-Bonnes pratiques de fabrication selon l'ANSM",
         path: `${commonGalenicPath}08.18 BPF-ANSM.pdf`,
+      },
+      {
+        label: "20-CONTRÔLES PHARMACO-TECHNIQUES DES COMPRIMÉS",
+        path: `${commonGalenicPath}Révision ( PHARMACOTECH) .pptx · version 1.pptx`,
       },
     ],
   },
@@ -446,7 +488,11 @@ export const lessons = {
   "P-11": {
     links: [
       {
-        label: "01-Cours 2023",
+        label: "01-Cours 2024",
+        path: "2024/pharmaceutiques/pharmacologie/cours/Modélisation-et-paramètres-pharmacocinétiques-Résumé-du-cours-3-OL.pdf",
+      },
+      {
+        label: "02-Cours 2023",
         path: `${commmonPharmacoPath}02. Modélisation et paramétres pharmacocinétiques.pdf`,
       },
     ],
@@ -494,7 +540,11 @@ export const lessons = {
         path: `${commmonPharmacoPath}12.1 ANTI-HTA-2023.pdf`,
       },
       {
-        label: "03-Les stratégies thérapeutiques HTA 2023",
+        label: "03.1-Les stratégies thérapeutiques HTA 2024",
+        path: `${commonAnalyticPath}2024/pharmaceutiques/pharmacologie/cours/strategie-thérapeutique-HTA.pdf`,
+      },
+      {
+        label: "03.2-Les stratégies thérapeutiques HTA 2023",
         path: `${commmonPharmacoPath}12.1 strategie-thérapeutique-HTA.pdf`,
       },
       {
@@ -506,8 +556,16 @@ export const lessons = {
         path: `${commmonPharmacoPath}12.3 TRAITEMENT-DE-L’INSUFFISANCE-CARDIAQUE-pdf.pdf`,
       },
       {
-        label: "06-Traitement de l'angor 2020",
+        label: "06.1-Traitement de l'angor 2023",
+        path: `${commmonPharmacoPath}6-Traitement de l'angor Bis.pdf`,
+      },
+      {
+        label: "06.2-Traitement de l'angor 2020",
         path: "alternatives/pharmaceutiques/pharmacologie/cours/15-6-Trt de l'angor_2020_kerrada.pdf",
+      },
+      {
+        label: "07-Les normolipémiants 2024",
+        path: "2024/pharmaceutiques/pharmacologie/cours/Les-normolipémiants-cours.pdf",
       },
     ],
   },
@@ -542,7 +600,11 @@ export const lessons = {
   "P-18": {
     links: [
       {
-        label: "01-Cours 2020",
+        label: "01-Cours 2024",
+        path: "2024/pharmaceutiques/pharmacologie/cours/trt-de-la-MTEV-cours-étudiant-2023.pdf",
+      },
+      {
+        label: "02-Cours 2020",
         path: "alternatives/pharmaceutiques/pharmacologie/cours/19-Traitement de la maladie thromboemboiique veineuse_BERERHI_2020.pdf",
       },
     ],
@@ -573,12 +635,16 @@ export const lessons = {
         label: "06-Cancero-muta-teratogène 2019",
         path: `${commonToxicoPath}01.5 Cancero-muta-teratogenese_mecheri_2019.pdf`,
       },
+      {
+        label: "07-Cancérogénése 2023",
+        path: `${commonToxicoPath}15_cancérogénése.pdf`,
+      },
     ],
   },
   "P-20": {
     links: [
       {
-        label: "!! Non désponible !!",
+        label: "!! Non disponible !!",
         path: "",
       },
     ],

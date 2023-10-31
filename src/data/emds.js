@@ -458,39 +458,39 @@ export const emds = {
     links: [
       {
         label: "Chimie_analytique_TD n°01_ELL",
-        paht: "2023/fondamentales/analytique/td/Chimie_analytique_TD n°01_ELL .pdf",
+        path: "2023/fondamentales/analytique/td/Chimie_analytique_TD n°01_ELL .pdf",
       },
       {
         label: "Chimie_analytique_TD_n°02_chromatographie",
-        paht: "2023/fondamentales/analytique/td/Chimie_analytique_TD_n°02_chromatographie.pdf",
+        path: "2023/fondamentales/analytique/td/Chimie_analytique_TD_n°02_chromatographie.pdf",
       },
       {
         label: "TD1 (2ème)",
-        paht: "2023/fondamentales/analytique/td/TD1 (2ème).pdf",
+        path: "2023/fondamentales/analytique/td/TD1 (2ème).pdf",
       },
       {
         label: "TD2 (2ème)",
-        paht: "2023/fondamentales/analytique/td/TD2 (2ème).pdf",
+        path: "2023/fondamentales/analytique/td/TD2 (2ème).pdf",
       },
       {
         label: "TD3 (2ème)",
-        paht: "2023/fondamentales/analytique/td/TD3 (2ème).pdf",
+        path: "2023/fondamentales/analytique/td/TD3 (2ème).pdf",
       },
       {
         label: "TD4 (2ème)",
-        paht: "2023/fondamentales/analytique/td/TD4 (2ème).pdf",
+        path: "2023/fondamentales/analytique/td/TD4 (2ème).pdf",
       },
       {
         label: "TD5 (2ème)",
-        paht: "2023/fondamentales/analytique/td/TD5 (2ème).pdf",
+        path: "2023/fondamentales/analytique/td/TD5 (2ème).pdf",
       },
       {
         label: "TD6 (2ème)",
-        paht: "2023/fondamentales/analytique/td/TD6 (2ème).pdf",
+        path: "2023/fondamentales/analytique/td/TD6 (2ème).pdf",
       },
       {
         label: "TD7 (2ème)",
-        paht: "2023/fondamentales/analytique/td/TD7 (2ème).pdf",
+        path: "2023/fondamentales/analytique/td/TD7 (2ème).pdf",
       },
 
       {
@@ -602,6 +602,10 @@ export const emds = {
         path: `${commonBioPhysicPath}EMD 2 Biophysique (2020).pdf`,
       },
       {
+        label: "EMD 1 Biophysique (2023)",
+        path: `${commonBioPhysicPath}EMD1 biophysique.pdf`,
+      },
+      {
         label: "EMD 2 Biophysique (2023)",
         path: `${commonBioPhysicPath}EMD 2 Biophysique (2023).pdf`,
       },
@@ -613,6 +617,22 @@ export const emds = {
   },
   "FQ-3": {
     links: [
+      {
+        label: "TD 1 2023",
+        path: `${commonGeneticPath}TD 1.pdf`,
+      },
+      {
+        label: "TD 2 2023",
+        path: `${commonGeneticPath}TD 2.pdf`,
+      },
+      {
+        label: "TD 3 2023",
+        path: `${commonGeneticPath}TD 3.pdf`,
+      },
+      {
+        label: "TD 4 2023",
+        path: `${commonGeneticPath}TD 4.pdf`,
+      },
       {
         label: "EMD 1 Génétique  (2015)",
         path: `${commonGeneticPath}EMD 1 Génétique  (2015).pdf`,
