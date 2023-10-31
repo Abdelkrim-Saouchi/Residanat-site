@@ -957,8 +957,12 @@ export const lessons = {
   "B-15": {
     links: [
       {
-        label: "01-Dg d'une pneumopathie aigue 2019",
+        label: "01.1-Dg d'une pneumopathie aigue 2019",
         path: "alternatives/biologiques/cours/46. Dgc d'une pneumopathie aigue.docx",
+      },
+      {
+        label: "01.2-Prélèvements bronchopulmonaire 2023",
+        path: `${commonMicroPath}44. IRB-dgc.docx`,
       },
       {
         label: "02-Les pneumopathies infectieuses 2018",
@@ -1021,8 +1025,8 @@ export const lessons = {
         path: "alternatives/biologiques/cours/42-Adenovirus (officiel).pdf",
       },
       {
-        label: "17-Coronavirus 2019",
-        path: "alternatives/biologiques/cours/44-les coronavirus Dr. S.KHEMISSI (2019).pdf",
+        label: "17-Coronavirus 2023",
+        path: `${commonMicroPath}43. cours_pharm-Coronavirus_2023.docx`,
       },
     ],
   },
@@ -1035,6 +1039,10 @@ export const lessons = {
       {
         label: "02-ATB part II 2023",
         path: `${commonMicroPath}05.2. antibiotique2.doc`,
+      },
+      {
+        label: "02-ATB part III 2023",
+        path: `${commonMicroPath}8. ANTIBIOTIQUE 3.doc`,
       },
     ],
   },
