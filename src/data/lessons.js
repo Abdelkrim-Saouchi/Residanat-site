@@ -14,8 +14,12 @@ export const lessons = {
   "F-01": {
     links: [
       {
-        label: "01-Solvants et Solutions 2023",
+        label: "01.1-Solvants et Solutions 2023",
         path: `${commonAnalyticPath}01.1 SOLVANTS ET SOLUTIONS.pdf`,
+      },
+      {
+        label: "01.2-Solvants et Solutions 2024",
+        path: "2024/fondamentales/analytique/cours/SOLVANTS-SOLUTIONS-2023.pdf",
       },
       {
         label: "02-Solution idéale non idéale 2023",
@@ -34,8 +38,12 @@ export const lessons = {
         path: `alternatives/fondamentales/analytiques/cours/2-2-Les-méthodes-de-mesure-du-pH.pdf`,
       },
       {
-        label: "05-PH des solution aqueuses simples 2023",
+        label: "05.1-PH des solution aqueuses simples 2023",
         path: `${commonAnalyticPath}01.4 PH des solutions aqueuses simples.pdf`,
+      },
+      {
+        label: "05.2-PH des solution aqueuses simples 2024",
+        path: "2024/fondamentales/analytique/cours/pH-des-solutions-aqueuses-2023.pdf",
       },
       {
         label: "06-PH des solutions mélanges 2023",
@@ -226,16 +234,24 @@ export const lessons = {
         path: `${commonGeneticPath}02. Les chromosomes.pdf`,
       },
       {
-        label: "03-Les gènes 2023",
+        label: "03.1-Les gènes 2023",
         path: `${commonGeneticPath}03. Les gènes.pdf`,
+      },
+      {
+        label: "03.2-Les gènes 2024",
+        path: "2024/fondamentales/génétiques/cours/Cours-sur-les-gènes-pdf.pdf",
       },
       {
         label: "04-La réplication de l'ADN 2023",
         path: `${commonGeneticPath}04. la Replication de l'ADN.pdf`,
       },
       {
-        label: "05-La transcription de l'ADN 2023",
+        label: "05.1-La transcription de l'ADN 2023",
         path: `${commonGeneticPath}05. la Transcription de l'ADN.pdf`,
+      },
+      {
+        label: "05.2-La transcription de l'ADN 2024",
+        path: "2024/fondamentales/génétiques/cours/Cours-5-La-transcription.pdf",
       },
       {
         label: "06-La traduction 2023",
@@ -624,7 +640,11 @@ export const lessons = {
         path: `${commonToxicoPath}01.2 pharm5an_toxico-lesions_biochimiques.pptx`,
       },
       {
-        label: "04-Stress Oxydant 2023",
+        label: "04.1-Stress Oxydant 2024",
+        path: "2024/pharmaceutiques/toxicologie/cours/Stress-oxydant-Dr-MECHERI.pdf",
+      },
+      {
+        label: "04.2-Stress Oxydant 2023",
         path: `${commonToxicoPath}01.3 Stress-oxydant.pdf`,
       },
       {
@@ -632,7 +652,11 @@ export const lessons = {
         path: `${commonToxicoPath}01.4 cytotoxicité-Nécrose-ApoptoseDr.Boudemagh-K.pdf`,
       },
       {
-        label: "06-Cancero-muta-teratogène 2019",
+        label: "06.1-Cancero-muta-teratogène 2024",
+        path: `2024/pharmaceutiques/toxicologie/cours/Cancéro-géno-repro-Dr-Mecheri.pdf`,
+      },
+      {
+        label: "06.2-Cancero-muta-teratogène 2019",
         path: `${commonToxicoPath}01.5 Cancero-muta-teratogenese_mecheri_2019.pdf`,
       },
       {
@@ -651,6 +675,10 @@ export const lessons = {
   },
   "P-21": {
     links: [
+      {
+        label: "01-Cours 2024",
+        path: "2024/pharmaceutiques/toxicologie/cours/Traitement-des-intoxications.pdf",
+      },
       {
         label: "01-Cours 2023",
         path: `${commonToxicoPath}03. Traitement des intoxications.pdf`,
@@ -829,19 +857,35 @@ export const lessons = {
   "B-01": {
     links: [
       {
-        label: "01-Régulation de la glycémie 2023",
+        label: "01.1-Régulation de la glycémie 2024",
+        path: "2024/biologiques/biochimie/cours/Régulation de la glycémie.pdf",
+      },
+      {
+        label: "01.2-Régulation de la glycémie 2023",
         path: `${commonBioChemPath}01.1 Régulation de la glycémie.pdf`,
       },
       {
-        label: "02-Explorations de la glycorégulation 2023",
+        label: "02.1-Explorations de la glycorégulation 2024",
+        path: "2024/biologiques/biochimie/cours/Explorations biochimiques des glucides.pdf",
+      },
+      {
+        label: "02.2-Explorations de la glycorégulation 2023",
         path: `${commonBioChemPath}01.2 Explorations de la glycorégulation.pdf`,
       },
       {
-        label: "03-Diabète sucré 2023",
+        label: "03.1-Diabète sucré 2024",
+        path: "2024/biologiques/biochimie/cours/3. Diabète sucré_2.pdf",
+      },
+      {
+        label: "03.2-Diabète sucré 2023",
         path: `${commonBioChemPath}01.3 Diabète sucré.pdf`,
       },
       {
-        label: "04-Hypoglycémies 2023",
+        label: "04.1-Hypoglycémies 2024",
+        path: "2024/biologiques/biochimie/cours/hypoglycémies.pdf",
+      },
+      {
+        label: "04.2-Hypoglycémies 2023",
         path: `${commonBioChemPath}01.4 Hypoglycémies.pdf`,
       },
     ],
@@ -849,7 +893,11 @@ export const lessons = {
   "B-02": {
     links: [
       {
-        label: "01-Cours 2023",
+        label: "01.1-Cours 2024",
+        path: "2024/biologiques/biochimie/cours/Exploration-du-métabolisme-des-lipides-2.pdf",
+      },
+      {
+        label: "01.2-Cours 2023",
         path: `${commonBioChemPath}02. Exploration du métabolisme des lipides.pdf`,
       },
     ],
@@ -917,7 +965,11 @@ export const lessons = {
   "B-10": {
     links: [
       {
-        label: "01-Cours 2023",
+        label: "01.1-Cours 2024",
+        path: "2024/biologiques/biochimie/cours/LA-BIOCHIMIE-DE-LHEMOLYSE-1.pdf",
+      },
+      {
+        label: "01.2-Cours 2023",
         path: `${commonBioChemPath}10. La biochimie de l'hémolyse.pdf`,
       },
     ],
@@ -925,7 +977,11 @@ export const lessons = {
   "B-11": {
     links: [
       {
-        label: "01-Cours 2023",
+        label: "01.1-Cours 2024",
+        path: "2024/biologiques/biochimie/cours/LES-BIOMARQUEURS-CARDIAQUES-cour-1.pdf",
+      },
+      {
+        label: "01.2-Cours 2023",
         path: `${commonBioChemPath}11. Les biomarqueurs cardiaques.pdf`,
       },
     ],
@@ -933,7 +989,11 @@ export const lessons = {
   "B-12": {
     links: [
       {
-        label: "01-Structure-bacterienne 2023",
+        label: "01.1-Structure-bacterienne 2024",
+        path: "2024/biologiques/microbiologie/cours/structure-bacterienne-PHAR-24-12-1.doc",
+      },
+      {
+        label: "01.2-Structure-bacterienne 2023",
         path: `${commonMicroPath}01.structure-bacterienne.doc`,
       },
     ],
@@ -941,7 +1001,11 @@ export const lessons = {
   "B-13": {
     links: [
       {
-        label: "01-Antiseptique désinfectant stérilisation 2023",
+        label: "01.1-Antiseptique désinfectant stérilisation 2024",
+        path: "2024/biologiques/microbiologie/cours/Antiseptiques désinfectants et stérilisation 2023 .pdf",
+      },
+      {
+        label: "01.2-Antiseptique désinfectant stérilisation 2023",
         path: `${commonMicroPath}02. Antiseptique désinfectant stérilisation 2023.pdf`,
       },
     ],
@@ -985,7 +1049,11 @@ export const lessons = {
         path: `${commonMicroPath}04.2. Legionella.docx`,
       },
       {
-        label: "08-Pneumocoques 2023",
+        label: "08.1-Pneumocoques 2024",
+        path: "2024/biologiques/microbiologie/cours/STREPTOCOQUES-_.docx",
+      },
+      {
+        label: "08.2-Pneumocoques 2023",
         path: `${commonMicroPath}STREPTOCOQUE.docx`,
       },
       {
@@ -1033,15 +1101,28 @@ export const lessons = {
   "B-16": {
     links: [
       {
-        label: "01-ATB part I 2023",
+        label: "01.1-ATB part I 2024",
+        path: "2024/biologiques/microbiologie/cours/antib-classification-mode-daction-compressé.pdf",
+      },
+
+      {
+        label: "01.2-ATB part I 2023",
         path: `${commonMicroPath}05.1. antibiotique1.docx`,
       },
       {
-        label: "02-ATB part II 2023",
+        label: "02.1-ATB part II 2024",
+        path: "2024/biologiques/microbiologie/cours/antibiotic-mecanisme-de-resistances-compressé.pdf",
+      },
+      {
+        label: "02.2-ATB part II 2023",
         path: `${commonMicroPath}05.2. antibiotique2.doc`,
       },
       {
-        label: "02-ATB part III 2023",
+        label: "02.1-ATB part III 2024",
+        path: "2024/biologiques/microbiologie/cours/antb.role-du-labo.pdf",
+      },
+      {
+        label: "02.1-ATB part III 2023",
         path: `${commonMicroPath}8. ANTIBIOTIQUE 3.doc`,
       },
     ],
@@ -1053,7 +1134,11 @@ export const lessons = {
         path: `${commonMicroPath}LCR.doc`,
       },
       {
-        label: "02-Méningocoques 2023",
+        label:
+          "2024/biologiques/microbiologie/cours/neisseriacours-pharmacie.docx",
+      },
+      {
+        label: "02.2-Méningocoques 2023",
         path: `${commonMicroPath}Gonocoque ( Neisseriaceae ).docx`,
       },
       {
@@ -1117,7 +1202,11 @@ export const lessons = {
         path: `${commonMicroPath}Campylobacter - Helicobacter.pdf`,
       },
       {
-        label: "06-Staphylocoques 2023",
+        label: "06.1-Staphylocoques 2024",
+        path: "2024/biologiques/microbiologie/cours/Les_staphylocoques_word_Enregistré_automatiquement_docx_Google_Docs.pdf",
+      },
+      {
+        label: "06.2-Staphylocoques 2023",
         path: `${commonMicroPath}STAPHYLOCOQUES.docx`,
       },
       {
@@ -1144,6 +1233,10 @@ export const lessons = {
   },
   "B-20": {
     links: [
+      {
+        label: "00-ECBU 2024",
+        path: "2024/biologiques/microbiologie/cours/COURS-ECBU.docx",
+      },
       {
         label: "00-ECBU 2023",
         path: `${commonMicroPath}09. ECBU.pdf`,
@@ -1249,7 +1342,11 @@ export const lessons = {
   "B-27": {
     links: [
       {
-        label: "01-Cours 2023",
+        label: "01.1-Cours 2024",
+        path: "2024/biologiques/parasitologie/cours/AMIBIASE-FINALE (1).doc",
+      },
+      {
+        label: "01.2-Cours 2023",
         path: `${commonParasitoPath}01. Amibiase.pdf`,
       },
     ],
@@ -1257,8 +1354,12 @@ export const lessons = {
   "B-28": {
     links: [
       {
-        label: "01-Cours 2023",
+        label: "01.1-Cours 2024",
         path: `${commonParasitoPath}02. Leishmaniose.pdf`,
+      },
+      {
+        label: "01.2-Cours 2023",
+        path: "2024/biologiques/parasitologie/cours/LEISHMM-cours-1.docx",
       },
     ],
   },
@@ -1273,7 +1374,11 @@ export const lessons = {
   "B-30": {
     links: [
       {
-        label: "01-Cours 2023",
+        label: "01.1-Cours 2024",
+        path: "2024/biologiques/parasitologie/cours/Le-paludisme-.pdf",
+      },
+      {
+        label: "01.2-Cours 2023",
         path: `${commonParasitoPath}04. Paludisme.pdf`,
       },
     ],
@@ -1281,7 +1386,11 @@ export const lessons = {
   "B-31": {
     links: [
       {
-        label: "01-Cours 2023",
+        label: "01.1-Cours 2024",
+        path: "2024/biologiques/parasitologie/cours/BILHARZIOSE.doc",
+      },
+      {
+        label: "01.2-Cours 2023",
         path: `${commonParasitoPath}05. Bilharziose ( Schitosomes ).doc`,
       },
     ],
@@ -1301,11 +1410,15 @@ export const lessons = {
   "B-33": {
     links: [
       {
-        label: "01-Nématodes à transmission per os 2023",
+        label: "01.1-Nématodes à transmission per os et tanscutanée 2024",
+        path: "2024/biologiques/parasitologie/cours/nematodes-INTESTINAUX-.TRANSCUTANEE-3.doc",
+      },
+      {
+        label: "01.2-Nématodes à transmission per os 2023",
         path: `${commonParasitoPath}07.1. Nématodes à transmission per os.pdf`,
       },
       {
-        label: "02-Nématodes-Intestinaux-Transcutanée 2023",
+        label: "02.3-Nématodes-Intestinaux-Transcutanée 2023",
         path: `${commonParasitoPath}07.2. Nematodes-Intestinaux-Transcutanée.pdf`,
       },
     ],
@@ -1381,44 +1494,93 @@ export const lessons = {
   "B-40": {
     links: [
       {
-        label: "01-Erythropoiese 2023",
+        label: "00-Hématoopoiese 2024",
+        path: "2024/biologiques/hémobiologie/cours/Hématopièse-Dr-Bouhsane-2023-2024.pdf",
+      },
+      {
+        label: "01.1-Erythropoiese 2024",
+        path: "2024/biologiques/hémobiologie/cours/Erythropièse-Dr-Bouhsane-2023-2024.pdf",
+      },
+      {
+        label: "01.2-Erythropoiese 2023",
         path: `${commonHemoBioPath}01. Erythropoiese.pdf`,
       },
       {
-        label: "02-Facteur de l'erythropoeise 2023",
+        label: "02.1-Facteur de l'erythropoeise 2024",
+        path: "2024/biologiques/hémobiologie/cours/Facteurs-de-lérythropoièse.pdf",
+      },
+      {
+        label: "02.2-Facteur de l'erythropoeise 2023",
         path: `${commonHemoBioPath}02. Facteur de l'erythropoeise.pdf`,
       },
       {
-        label: "03-Hémoglobine 2023",
+        label: "03.1-Hémoglobine 2024",
+        path: "2024/biologiques/hémobiologie/cours/Hémoglobine-Dr-Bouhsane-2023-2024.pdf",
+      },
+      {
+        label: "03.1-Hémoglobine Annexes 2024",
+        path: "2024/biologiques/hémobiologie/cours/Annexes AH Dr BOUHSANE 2023 - 2024.pdf",
+      },
+      {
+        label: "03.2-Hémoglobine 2023",
         path: `${commonHemoBioPath}03. Hémoglobine.pdf`,
       },
       {
         label: "04-La membrane érythrocytaire 2023",
         path: `${commonHemoBioPath}04. La membrane érythrocytaire.pdf`,
       },
+      {
+        label: "05-Anomalies de GR sur frottis de sang 2024",
+        path: "2024/biologiques/hémobiologie/cours/TP - Anomalies des GR sur Frottis de Sang.pdf",
+      },
+      {
+        label: "06-HK FS GR 2024",
+        path: "2024/biologiques/hémobiologie/cours/TP Hk-FS-GR Dr BOUHSANE.pdf",
+      },
     ],
   },
   "B-41": {
     links: [
       {
-        label: "01-Généralitées sur les anémies 2023",
+        label: "01.1-Généralitées sur les anémies 2024",
+        path: "2024/biologiques/hémobiologie/cours/generalites sur les anémies et classification.pdf",
+      },
+      {
+        label: "01.2-Généralitées sur les anémies 2023",
         path: `${commonHemoBioPath}06. Généralitées sur les anémies.pdf`,
       },
       {
-        label: "02-Anémies microcytaires 2023",
+        label: "02.1-Anémies microcytaires 2024",
+        path: "2024/biologiques/hémobiologie/cours/Anémies-microcytaires.pdf",
+      },
+
+      {
+        label: "02.1-Anémies microcytaires 2023",
         path: `${commonHemoBioPath}08. Anémies microcytaires.pdf`,
       },
       {
-        label: "03-Anémie macrocytaire 2023",
+        label: "03.1-Anémie macrocytaire 2024",
         path: `${commonHemoBioPath}07. Anémie macrocytaire.pdf`,
+      },
+      {
+        label: "03.2-Anémie macrocytaire 2023",
+        path: "2024/biologiques/hémobiologie/cours/Anémies-macrocytaires.pdf",
       },
       {
         label: "04-Hémolyse physiologique et pathologique 2023",
         path: `${commonHemoBioPath}05. Hémolyse physiologique et pathologique.pdf`,
       },
       {
-        label: "05-Anémies Hémolytiques 2023",
+        label: "05.1-Anémies Hémolytiques 2024",
+        path: "2024/biologiques/hémobiologie/cours/Anémies-Hémolytiques-Dr-Bouhsane-2023-2024.pdf",
+      },
+      {
+        label: "05.2-Anémies Hémolytiques 2023",
         path: `${commonHemoBioPath}09. Anémies Hémolytiques 2022-23.pdf`,
+      },
+      {
+        label: "06-Hémogramme analyse et interprétation 2024",
+        path: "2024/biologiques/hémobiologie/cours/Hémogramme Analyse et interprétation.pdf",
       },
     ],
   },
