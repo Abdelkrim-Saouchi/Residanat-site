@@ -1118,11 +1118,11 @@ export const lessons = {
         path: `${commonMicroPath}05.2. antibiotique2.doc`,
       },
       {
-        label: "02.1-ATB part III 2024",
+        label: "03.1-ATB part III 2024",
         path: "2024/biologiques/microbiologie/cours/antb.role-du-labo.pdf",
       },
       {
-        label: "02.1-ATB part III 2023",
+        label: "03.2-ATB part III 2023",
         path: `${commonMicroPath}8. ANTIBIOTIQUE 3.doc`,
       },
     ],
@@ -1134,15 +1134,19 @@ export const lessons = {
         path: `${commonMicroPath}LCR.doc`,
       },
       {
-        label:
-          "2024/biologiques/microbiologie/cours/neisseriacours-pharmacie.docx",
+        label: "02.1-Méningocoques 2024",
+        path: "2024/biologiques/microbiologie/cours/neisseriacours-pharmacie.docx",
       },
       {
         label: "02.2-Méningocoques 2023",
         path: `${commonMicroPath}Gonocoque ( Neisseriaceae ).docx`,
       },
       {
-        label: "03-Pneumocoques + Streptocoques 2023",
+        label: "03.1-Pneumocoques + Streptocoques 2024",
+        path: "2024/biologiques/microbiologie/cours/STREPTOCOQUES-_.docx",
+      },
+      {
+        label: "03.2-Pneumocoques + Streptocoques 2023",
         path: `${commonMicroPath}STREPTOCOQUE.docx`,
       },
       {
@@ -1158,7 +1162,11 @@ export const lessons = {
         path: `${commonMicroPath}Listeria-monocytogenes-1.pdf`,
       },
       {
-        label: "07-Staphylocoques 2023",
+        label: "07.1-Staphylocoques 2024",
+        path: "2024/biologiques/microbiologie/cours/Les_staphylocoques_word_Enregistré_automatiquement_docx_Google_Docs.pdf",
+      },
+      {
+        label: "07.2-Staphylocoques 2023",
         path: `${commonMicroPath}STAPHYLOCOQUES.docx`,
       },
       {
@@ -1494,7 +1502,7 @@ export const lessons = {
   "B-40": {
     links: [
       {
-        label: "00-Hématoopoiese 2024",
+        label: "00-Hématopoiese 2024",
         path: "2024/biologiques/hémobiologie/cours/Hématopièse-Dr-Bouhsane-2023-2024.pdf",
       },
       {
