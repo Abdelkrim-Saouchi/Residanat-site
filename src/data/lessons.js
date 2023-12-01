@@ -1668,6 +1668,10 @@ export const lessons = {
   "B-43": {
     links: [
       {
+        label: "01-Cours 2024",
+        path: "2024/biologiques/hémobiologie/cours/LYMPHOPOIESE & LYMPHOCYTES Dr BOUHSANE 2023 _ 2024.pdf",
+      },
+      {
         label: "01-Cours 2023",
         path: `${commonHemoBioPath}13. Lymphopoiese & Lymphocytes 2022-2023.pdf`,
       },
