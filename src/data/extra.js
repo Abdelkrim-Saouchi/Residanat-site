@@ -53,8 +53,20 @@ export const extra = {
       path: "https://www.youtube.com/playlist?list=PLsjxu-h3dab1dIQJZNmjdHZG79f1kONRw",
     },
     {
-      label: "14. residanat25.epizy.com site",
+      label: "14. Autre site de cours: residanat25.epizy.com ",
       path: "https://www.residanat25.epizy.com/",
+    },
+    {
+      label: "15. Autre site : thephamacistdz.com",
+      path: "https://thephamacistdz.com/",
+    },
+    {
+      label: "16. Autre site: pharma Study dz",
+      path: "https://sites.google.com/view/pharmastudy-dz/",
+    },
+    {
+      label: "17. Le site national des livres universitaires: Iqraa",
+      path: "https://st.iqraa.opu.dz/",
     },
   ],
 };
