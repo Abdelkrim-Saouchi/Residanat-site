@@ -254,12 +254,20 @@ export const lessons = {
         path: "2024/fondamentales/génétiques/cours/Cours-5-La-transcription.pdf",
       },
       {
-        label: "06-La traduction 2023",
+        label: "06.1-La traduction 2023",
         path: `${commonGeneticPath}06. La Traduction.pdf`,
       },
       {
-        label: "07-La regulation des expressions des gènes 2023",
+        label: "06.2-La traduction 2024",
+        path: "2024/fondamentales/génétiques/cours/Traduction-Pharmaciens-2023.pdf",
+      },
+      {
+        label: "07.1-La regulation des expressions des gènes 2023",
         path: `${commonGeneticPath}07. La Régulation.ppt`,
+      },
+      {
+        label: "07.2-La regulation des expressions des gènes 2024",
+        path: "2024/fondamentales/génétiques/cours/La-régulation-de-lexpression-des-génes.pdf",
       },
     ],
   },
@@ -523,6 +531,10 @@ export const lessons = {
         label: "02-Les interactions pharmacodynamiques 2023",
         path: `${commmonPharmacoPath}04. Les interactions pharmacodynamiques.pdf`,
       },
+      {
+        label: "03-Facteurs de variabilité de l'activité des médicaments 2024",
+        path: "2024/pharmaceutiques/pharmacologie/cours/Facteurs-de-variabilité-de-lactivité-des-médicaments-23-o.pdf",
+      },
     ],
   },
   "P-13": {
@@ -724,6 +736,10 @@ export const lessons = {
   "P-25": {
     links: [
       {
+        label: "01-Cours 2024",
+        path: "2024/pharmaceutiques/toxicologie/cours/alcoolisme-chebli.pdf",
+      },
+      {
         label: "01-Cours 2023",
         path: `${commonToxicoPath}07. Alcoolisme.pdf`,
       },
@@ -731,6 +747,10 @@ export const lessons = {
   },
   "P-26": {
     links: [
+      {
+        label: "01-Cours 2024",
+        path: "2024/pharmaceutiques/toxicologie/cours/Paracetamol-Salicylés.ppt",
+      },
       {
         label: "01-Cours 2023",
         path: `${commonToxicoPath}08. Antalgiques.pdf`,
@@ -905,8 +925,16 @@ export const lessons = {
   "B-03": {
     links: [
       {
+        label: "01-Exploration des proteines (partie1) 2024",
+        path: "2024/biologiques/biochimie/cours/cours exploration des proteines plasmatiques.pdf",
+      },
+      {
         label: "01-Exploration des proteines (partie1) 2023",
         path: `${commonBioChemPath}03.1 Exploration des proteines (partie1).pdf`,
+      },
+      {
+        label: "02-Exploration des proteines (partie2) 2024",
+        path: "2024/biologiques/biochimie/cours/exploration des proteines deuxiéme partie.pdf",
       },
       {
         label: "02-Exploration des proteines (partie2) 2023",
@@ -1013,6 +1041,10 @@ export const lessons = {
   "B-14": {
     links: [
       {
+        label: "01-Infection nosocomiale 2024",
+        path: "2024/biologiques/microbiologie/cours/Infections-associées-aux-soins-cours-Ph-2023.pdf",
+      },
+      {
         label: "01-Infection nosocomiale 2023",
         path: `${commonMicroPath}03. Infection nosocomiale.pdf`,
       },
@@ -1045,55 +1077,59 @@ export const lessons = {
         path: `${commonMicroPath}04.1. Bordetella-Pasteurelle-Francisella.docx`,
       },
       {
-        label: "07-Legionella 2023",
+        label: "06-Legionella 2024",
+        path: "2024/biologiques/microbiologie/cours/legionella-cours-résidents.pdf",
+      },
+      {
+        label: "06-Legionella 2023",
         path: `${commonMicroPath}04.2. Legionella.docx`,
       },
       {
-        label: "08.1-Pneumocoques 2024",
+        label: "07.1-Pneumocoques 2024",
         path: "2024/biologiques/microbiologie/cours/STREPTOCOQUES-_.docx",
       },
       {
-        label: "08.2-Pneumocoques 2023",
+        label: "07.2-Pneumocoques 2023",
         path: `${commonMicroPath}STREPTOCOQUE.docx`,
       },
       {
-        label: "09-HAEMOPHILUS 2023",
+        label: "08-HAEMOPHILUS 2023",
         path: `${commonMicroPath}HAEMOPHILUS.docx`,
       },
       {
-        label: "10-Moraxella catarrhalis !! Non disponible !!",
+        label: "09-Moraxella catarrhalis !! Non disponible !!",
         path: "",
       },
       {
-        label: "11-Bacille-diphtérique(Corynebacteriaceae) 2023",
+        label: "10-Bacille-diphtérique(Corynebacteriaceae) 2023",
         path: `${commonMicroPath}04.3. Bacille-diphtérique(Corynebacteriaceae).pdf`,
       },
       {
-        label: "12-Bacillus 2022",
+        label: "11-Bacillus 2022",
         path: "alternatives/biologiques/cours/25.Bacillaceae.pdf",
       },
       {
-        label: "12-2-Bacillus 2018",
+        label: "11-2-Bacillus 2018",
         path: "alternatives/biologiques/cours/bacillus Khalkhal (2018)-2.pdf",
       },
       {
-        label: "13-Staphylocoques 2023",
+        label: "12-Staphylocoques 2023",
         path: `${commonMicroPath}STAPHYLOCOQUES.docx`,
       },
       {
-        label: "14-Orthomyxovirus 2023",
+        label: "13-Orthomyxovirus 2023",
         path: `${commonMicroPath}15. Orthomyxoviridae.pdf`,
       },
       {
-        label: "15-Paramyxovirus 2023",
+        label: "14-Paramyxovirus 2023",
         path: `${commonMicroPath}Paramyxoviridae-Pneumoviridae.pdf`,
       },
       {
-        label: "16-Adénovirus 2020",
+        label: "15-Adénovirus 2020",
         path: "alternatives/biologiques/cours/42-Adenovirus (officiel).pdf",
       },
       {
-        label: "17-Coronavirus 2023",
+        label: "16-Coronavirus 2023",
         path: `${commonMicroPath}43. cours_pharm-Coronavirus_2023.docx`,
       },
     ],
@@ -1406,8 +1442,21 @@ export const lessons = {
   "B-32": {
     links: [
       {
+        label: "01-Cestodes adultes 2024",
+        path: "2024/biologiques/parasitologie/cours/cestodes adultes .pdf",
+      },
+
+      {
         label: "01-Cestodes adultes 2023",
         path: `${commonParasitoPath}06.1. Cestodes adultes.pdf`,
+      },
+      {
+        label: "02-Cestodes larvaires 2024 diapo",
+        path: "2024/biologiques/parasitologie/cours/2.CESTODES-LARVAIRES-COURS-2014-2015.pdf",
+      },
+      {
+        label: "02-Cestodes larvaires 2024 polycopé",
+        path: "2024/biologiques/parasitologie/cours/2.Cestodes-larvaires-polycopié.pdf",
       },
       {
         label: "02-Cestodes larvaires 2023",
@@ -1595,8 +1644,16 @@ export const lessons = {
   "B-42": {
     links: [
       {
+        label: "01-Granulopoièse 2024",
+        path: "2024/biologiques/hémobiologie/cours/GranulopoïèseI.pdf",
+      },
+      {
         label: "01-Granulopoièse 2023",
         path: `${commonHemoBioPath}10. Granulopoièse 2022-23.pdf`,
+      },
+      {
+        label: "02-Monocyte et Macrophage 2024",
+        path: "2024/biologiques/hémobiologie/cours/monocyte et macrophage..pdf",
       },
       {
         label: "02-Monocyte et Macrophage 2023",
