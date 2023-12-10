@@ -497,7 +497,7 @@ export const lessons = {
       },
       {
         label: "02-Suspensions 2023",
-        path: `${commonGalenicPath}09.1 Les  dispersions+emulsions.pdf`,
+        path: `${commonGalenicPath}09.2 Suspension 2022-2023..pdf`,
       },
     ],
   },
