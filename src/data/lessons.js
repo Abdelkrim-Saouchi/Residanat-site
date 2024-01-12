@@ -540,6 +540,10 @@ export const lessons = {
   "P-13": {
     links: [
       {
+        label: "01-Cours 2024",
+        path: "2024/pharmaceutiques/pharmacologie/cours/Pharmacovigilance-2023-ol.pdf",
+      },
+      {
         label: "01-Cours 2023",
         path: `${commmonPharmacoPath}05. Pharmacovigilance.pdf`,
       },
@@ -977,6 +981,10 @@ export const lessons = {
   "B-08": {
     links: [
       {
+        label: "01-Cours 2024",
+        path: "2024/biologiques/biochimie/cours/Exploration_biochimique_des_enzymes_sériques_et_tissulaires_3.pdf",
+      },
+      {
         label: "01-Cours 2023",
         path: `${commonBioChemPath}08. Exploration des enzymes sériques et tissulaires.pdf`,
       },
@@ -984,6 +992,10 @@ export const lessons = {
   },
   "B-09": {
     links: [
+      {
+        label: "01-Cours 2024",
+        path: "2024/biologiques/biochimie/cours/Exploration biochimique du foie.pdf",
+      },
       {
         label: "01-Cours 2023",
         path: `${commonBioChemPath}09. Exploration biochimique du foie.pdf`,
@@ -1073,6 +1085,10 @@ export const lessons = {
         path: "",
       },
       {
+        label: "05-Bordetella 2024",
+        path: "2024/biologiques/microbiologie/cours/Bordetella_Pasteurelle_Francisella_microbiologie_4_pharmacie_Pr.pdf",
+      },
+      {
         label: "05-Bordetella 2023",
         path: `${commonMicroPath}04.1. Bordetella-Pasteurelle-Francisella.docx`,
       },
@@ -1091,6 +1107,10 @@ export const lessons = {
       {
         label: "07.2-Pneumocoques 2023",
         path: `${commonMicroPath}STREPTOCOQUE.docx`,
+      },
+      {
+        label: "08-HAEMOPHILUS 2024",
+        path: "2024/biologiques/microbiologie/cours/23.2.HAEMOPHILUS-1 (1).pdf",
       },
       {
         label: "08-HAEMOPHILUS 2023",
@@ -1186,6 +1206,10 @@ export const lessons = {
         path: `${commonMicroPath}STREPTOCOQUE.docx`,
       },
       {
+        label: "04-HAEMOPHILUS 2024",
+        path: "2024/biologiques/microbiologie/cours/23.2.HAEMOPHILUS-1 (1).pdf",
+      },
+      {
         label: "04-HAEMOPHILUS 2023",
         path: `${commonMicroPath}HAEMOPHILUS.docx`,
       },
@@ -1214,6 +1238,10 @@ export const lessons = {
   "B-18": {
     links: [
       {
+        label: "01-Bacilles tuberculeux 2024",
+        path: "2024/biologiques/microbiologie/cours/1.LES-MYCOBACTERIES.pdf",
+      },
+      {
         label: "01-Bacilles tuberculeux 2023",
         path: `${commonMicroPath}07.1. Bacilles tuberculeux.pdf`,
       },
@@ -1230,12 +1258,24 @@ export const lessons = {
         path: `${commonMicroPath}Enterobacteries.pdf`,
       },
       {
+        label: "02-Salmonella 2024",
+        path: "2024/biologiques/microbiologie/cours/Salmonella.pdf",
+      },
+      {
         label: "02-Salmonella 2023",
         path: `${commonMicroPath}Salmonella.doc`,
       },
       {
+        label: "03-SHIGELLA 2024",
+        path: "2024/biologiques/microbiologie/cours/Shigella.pdf",
+      },
+      {
         label: "03-SHIGELLA 2023",
         path: `${commonMicroPath}SHIGELLA.doc`,
+      },
+      {
+        label: "04-VIBRIONACEAE 2024",
+        path: "2024/biologiques/microbiologie/cours/VIBRIONACEAE.pdf",
       },
       {
         label: "04-VIBRIONACEAE 2023",
@@ -1318,12 +1358,20 @@ export const lessons = {
         path: `${commonMicroPath}Gonocoque ( Neisseriaceae ).docx`,
       },
       {
+        label: "02-CHLAMYDIA-TRACHOMATIS 2024",
+        path: "2024/biologiques/microbiologie/cours/CHLAMYDIA-TRACHOMATIS.pdf",
+      },
+      {
         label: "02-CHLAMYDIA-TRACHOMATIS 2023",
         path: `${commonMicroPath}CHLAMYDIA-TRACHOMATIS.docx`,
       },
       {
         label: "03-Mycoplasmes 2023",
         path: `${commonMicroPath}Mycoplasmes.docx`,
+      },
+      {
+        label: "04-Syphilis 2024",
+        path: "2024/biologiques/microbiologie/cours/2.les-tréponèmes-cours-pharmacie.pdf",
       },
       {
         label: "04-Syphilis 2023",
@@ -1410,6 +1458,10 @@ export const lessons = {
   "B-29": {
     links: [
       {
+        label: "01-Cours 2024",
+        path: "2024/biologiques/parasitologie/cours/parasito3an_toxoplasmose2 (1).pdf",
+      },
+      {
         label: "01-Cours 2023",
         path: `${commonParasitoPath}03. Toxoplasmose.pdf`,
       },
@@ -1483,12 +1535,24 @@ export const lessons = {
   "B-34": {
     links: [
       {
+        label: "01-Dermatophyties ou teignes 2024",
+        path: "2024/biologiques/parasitologie/cours/6.DERMATOPHYTIES-OU-TEIGNES.pdf",
+      },
+      {
         label: "01-Dermatophyties ou teignes 2023",
         path: `${commonParasitoPath}08.1. Dermatophyties ou teignes.pdf`,
       },
       {
+        label: "02-Candida-et-Candidoses 2024",
+        path: "2024/biologiques/parasitologie/cours/2.candidoses.m.ppt.pdf",
+      },
+      {
         label: "02-Candida-et-Candidoses 2023",
         path: `${commonParasitoPath}08.2. Candida-et-Candidoses.pdf`,
+      },
+      {
+        label: "03-Malessezioses (Pityriasis-versicolor) 2024",
+        path: "2024/biologiques/parasitologie/cours/3.PT-pdf.pdf",
       },
       {
         label: "03-Malessezioses (Pityriasis-versicolor) 2023",
@@ -1660,8 +1724,20 @@ export const lessons = {
         path: `${commonHemoBioPath}11. Monocyte et Macrophage.pdf`,
       },
       {
+        label: "03-Polynucléaires-Mastocytes 2024",
+        path: "2024/biologiques/hémobiologie/cours/Les polynucléaires- Mastocytes.pdf",
+      },
+      {
         label: "03-Polynucléaires-Mastocytes 2023",
         path: `${commonHemoBioPath}12. Polynucléaires-Mastocytes.pdf`,
+      },
+      {
+        label: "04-Anomalies benignes de la lignée leucocytaire 2024",
+        path: "2024/biologiques/hémobiologie/cours/anomalies benignes de la lignée leucocytaire (1).pdf",
+      },
+      {
+        label: "05-Généralités sur les hémopathies malignes 2024",
+        path: "2024/biologiques/hémobiologie/cours/Généralités sur les hémopathies malignes.pdf",
       },
     ],
   },
