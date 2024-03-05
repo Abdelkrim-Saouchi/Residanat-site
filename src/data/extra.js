@@ -80,5 +80,9 @@ export const extra = {
       label: "20. Le site national des livres universitaires: Iqraa",
       path: "https://st.iqraa.opu.dz/",
     },
+    {
+      label: "21. Jas Boutemine blog",
+      path: "https://jas-boutemine.blogspot.com/2021/09/revision-residanat-pharmacie.html?fbclid=IwAR0_A_A4kpDTLBM9VwimguRzhIzqCDqrqFivqVBYEkrbSnuOktJB5CDN5vI#3",
+    },
   ],
 };
