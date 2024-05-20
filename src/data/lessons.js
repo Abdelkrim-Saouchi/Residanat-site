@@ -505,7 +505,7 @@ export const lessons = {
     links: [
       {
         label: "01-Cours 2023",
-        path: `${commonGalenicPath}01. METABOLISME DES MEDICAMENTS.pdf`,
+        path: `${commmonPharmacoPath}01. METABOLISME DES MEDICAMENTS.pdf`,
       },
     ],
   },
